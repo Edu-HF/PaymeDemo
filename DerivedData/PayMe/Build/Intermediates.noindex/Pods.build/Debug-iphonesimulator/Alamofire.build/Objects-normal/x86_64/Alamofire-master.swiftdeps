@@ -1,0 +1,21 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "9396a87c1c15f272704b5fded36ad494"
+build_time: [1529887371, 573673000]
+inputs:
+  "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/Pods/Alamofire/Source/AFError.swift": [1529887239, 0]
+  "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/Pods/Alamofire/Source/Alamofire.swift": [1529887239, 0]
+  "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [1529887239, 0]
+  "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/Pods/Alamofire/Source/MultipartFormData.swift": [1529887239, 0]
+  "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [1529887239, 0]
+  "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/Pods/Alamofire/Source/Notifications.swift": [1529887239, 0]
+  "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/Pods/Alamofire/Source/ParameterEncoding.swift": [1529887239, 0]
+  "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/Pods/Alamofire/Source/Request.swift": [1529887239, 0]
+  "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/Pods/Alamofire/Source/Response.swift": [1529887239, 0]
+  "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/Pods/Alamofire/Source/ResponseSerialization.swift": [1529887239, 0]
+  "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/Pods/Alamofire/Source/Result.swift": [1529887239, 0]
+  "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/Pods/Alamofire/Source/ServerTrustPolicy.swift": [1529887239, 0]
+  "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/Pods/Alamofire/Source/SessionDelegate.swift": [1529887239, 0]
+  "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/Pods/Alamofire/Source/SessionManager.swift": [1529887239, 0]
+  "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/Pods/Alamofire/Source/TaskDelegate.swift": [1529887239, 0]
+  "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/Pods/Alamofire/Source/Timeline.swift": [1529887239, 0]
+  "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/Pods/Alamofire/Source/Validation.swift": [1529887239, 0]

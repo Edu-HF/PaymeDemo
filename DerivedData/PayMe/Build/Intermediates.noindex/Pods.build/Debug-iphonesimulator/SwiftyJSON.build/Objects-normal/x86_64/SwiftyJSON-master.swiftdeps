@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "681b8bbcf4cd276c14085909d8b8c610"
+build_time: [1529887375, 577151000]
+inputs:
+  "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [1529887241, 0]

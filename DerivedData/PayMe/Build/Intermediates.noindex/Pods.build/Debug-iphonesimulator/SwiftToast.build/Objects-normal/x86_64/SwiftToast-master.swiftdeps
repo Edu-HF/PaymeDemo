@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "c5d9d26110b62448e1d1bb5c870ddc8a"
+build_time: [1530394121, 900193000]
+inputs:
+  "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/Pods/SwiftToast/SwiftToast/Classes/SwiftToast.swift": [1530394103, 0]
+  "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/Pods/SwiftToast/SwiftToast/Classes/SwiftToastView.swift": [1530394103, 0]
+  "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/Pods/SwiftToast/SwiftToast/Classes/UIViewController+SwiftToast.swift": [1530394103, 0]

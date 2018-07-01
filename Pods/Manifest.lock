@@ -1,0 +1,42 @@
+PODS:
+  - Alamofire (4.7.2)
+  - DropDown (2.3.2)
+  - Gloss (2.0.1)
+  - NVActivityIndicatorView (3.7.0):
+    - NVActivityIndicatorView/Presenter (= 3.7.0)
+  - NVActivityIndicatorView/Presenter (3.7.0)
+  - SCLAlertView (0.8)
+  - SwiftToast (1.1.3)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - DropDown (~> 2)
+  - Gloss
+  - NVActivityIndicatorView (~> 3.6)
+  - SCLAlertView
+  - SwiftToast (~> 1.1)
+  - SwiftyJSON (~> 3.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - DropDown
+    - Gloss
+    - NVActivityIndicatorView
+    - SCLAlertView
+    - SwiftToast
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  DropDown: 7f87abecc28f9b4edad810fe1211c5c018c257e5
+  Gloss: 1e8743f8de1fbe14a97f220ff901cba91ae5f8f8
+  NVActivityIndicatorView: d3738df7e2e476aca0ba6bf32a8c9fbcfc33d64b
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  SwiftToast: 029cbeda85c04fb3fa5df774ba461b19971bc6c5
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 70f9ef3abf9b7c8f5fd56130d6d2891ec7e02507
+
+COCOAPODS: 1.5.3

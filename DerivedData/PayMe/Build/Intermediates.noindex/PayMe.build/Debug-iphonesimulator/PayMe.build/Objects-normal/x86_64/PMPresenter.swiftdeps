@@ -1,0 +1,371 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PMPresenter"
+provides-nominal:
+- "5PayMe11PMPresenterC"
+provides-member:
+- ["5PayMe11PMPresenterC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "Array"
+- "AssignmentPrecedence"
+- "Banks"
+- "Double"
+- "NSObject"
+- "PM"
+- !private "PMInteractor"
+- "PMInteractorProtocol"
+- "PMPresenter"
+- "Payment"
+- "Quotas"
+depends-member:
+- !private ["5PayMe5BanksC", "bankIC"]
+- !private ["5PayMe5BanksC", "bankID"]
+- !private ["5PayMe5BanksC", "bankName"]
+- !private ["s7CVarArgP", "PMInteractor"]
+- !private ["s7CVarArgP", "Payment"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "bankIC"]
+- !private ["s7CVarArgP", "bankID"]
+- !private ["s7CVarArgP", "bankName"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "loadProperties"]
+- !private ["s7CVarArgP", "mainBankData"]
+- !private ["s7CVarArgP", "mainPMData"]
+- !private ["s7CVarArgP", "mainPMInteractor"]
+- !private ["s7CVarArgP", "mainPayment"]
+- !private ["s7CVarArgP", "mainQuotasData"]
+- !private ["s7CVarArgP", "pmAmount"]
+- !private ["s7CVarArgP", "pmBank"]
+- !private ["s7CVarArgP", "pmBankIC"]
+- !private ["s7CVarArgP", "pmBankID"]
+- !private ["s7CVarArgP", "pmIC"]
+- !private ["s7CVarArgP", "pmID"]
+- !private ["s7CVarArgP", "pmName"]
+- !private ["s7CVarArgP", "pmPM"]
+- !private ["s7CVarArgP", "pmPMIC"]
+- !private ["s7CVarArgP", "pmPMID"]
+- !private ["s7CVarArgP", "pmQuotas"]
+- !private ["s7CVarArgP", "qMSG"]
+- !private ["s28CustomDebugStringConvertibleP", "PMInteractor"]
+- !private ["s28CustomDebugStringConvertibleP", "Payment"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "bankIC"]
+- !private ["s28CustomDebugStringConvertibleP", "bankID"]
+- !private ["s28CustomDebugStringConvertibleP", "bankName"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "loadProperties"]
+- !private ["s28CustomDebugStringConvertibleP", "mainBankData"]
+- !private ["s28CustomDebugStringConvertibleP", "mainPMData"]
+- !private ["s28CustomDebugStringConvertibleP", "mainPMInteractor"]
+- !private ["s28CustomDebugStringConvertibleP", "mainPayment"]
+- !private ["s28CustomDebugStringConvertibleP", "mainQuotasData"]
+- !private ["s28CustomDebugStringConvertibleP", "pmAmount"]
+- !private ["s28CustomDebugStringConvertibleP", "pmBank"]
+- !private ["s28CustomDebugStringConvertibleP", "pmBankIC"]
+- !private ["s28CustomDebugStringConvertibleP", "pmBankID"]
+- !private ["s28CustomDebugStringConvertibleP", "pmIC"]
+- !private ["s28CustomDebugStringConvertibleP", "pmID"]
+- !private ["s28CustomDebugStringConvertibleP", "pmName"]
+- !private ["s28CustomDebugStringConvertibleP", "pmPM"]
+- !private ["s28CustomDebugStringConvertibleP", "pmPMIC"]
+- !private ["s28CustomDebugStringConvertibleP", "pmPMID"]
+- !private ["s28CustomDebugStringConvertibleP", "pmQuotas"]
+- !private ["s28CustomDebugStringConvertibleP", "qMSG"]
+- !private ["s23CustomStringConvertibleP", "PMInteractor"]
+- !private ["s23CustomStringConvertibleP", "Payment"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "bankIC"]
+- !private ["s23CustomStringConvertibleP", "bankID"]
+- !private ["s23CustomStringConvertibleP", "bankName"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "loadProperties"]
+- !private ["s23CustomStringConvertibleP", "mainBankData"]
+- !private ["s23CustomStringConvertibleP", "mainPMData"]
+- !private ["s23CustomStringConvertibleP", "mainPMInteractor"]
+- !private ["s23CustomStringConvertibleP", "mainPayment"]
+- !private ["s23CustomStringConvertibleP", "mainQuotasData"]
+- !private ["s23CustomStringConvertibleP", "pmAmount"]
+- !private ["s23CustomStringConvertibleP", "pmBank"]
+- !private ["s23CustomStringConvertibleP", "pmBankIC"]
+- !private ["s23CustomStringConvertibleP", "pmBankID"]
+- !private ["s23CustomStringConvertibleP", "pmIC"]
+- !private ["s23CustomStringConvertibleP", "pmID"]
+- !private ["s23CustomStringConvertibleP", "pmName"]
+- !private ["s23CustomStringConvertibleP", "pmPM"]
+- !private ["s23CustomStringConvertibleP", "pmPMIC"]
+- !private ["s23CustomStringConvertibleP", "pmPMID"]
+- !private ["s23CustomStringConvertibleP", "pmQuotas"]
+- !private ["s23CustomStringConvertibleP", "qMSG"]
+- !private ["s9EquatableP", "PMInteractor"]
+- !private ["s9EquatableP", "Payment"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "bankIC"]
+- !private ["s9EquatableP", "bankID"]
+- !private ["s9EquatableP", "bankName"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "loadProperties"]
+- !private ["s9EquatableP", "mainBankData"]
+- !private ["s9EquatableP", "mainPMData"]
+- !private ["s9EquatableP", "mainPMInteractor"]
+- !private ["s9EquatableP", "mainPayment"]
+- !private ["s9EquatableP", "mainQuotasData"]
+- !private ["s9EquatableP", "pmAmount"]
+- !private ["s9EquatableP", "pmBank"]
+- !private ["s9EquatableP", "pmBankIC"]
+- !private ["s9EquatableP", "pmBankID"]
+- !private ["s9EquatableP", "pmIC"]
+- !private ["s9EquatableP", "pmID"]
+- !private ["s9EquatableP", "pmName"]
+- !private ["s9EquatableP", "pmPM"]
+- !private ["s9EquatableP", "pmPMIC"]
+- !private ["s9EquatableP", "pmPMID"]
+- !private ["s9EquatableP", "pmQuotas"]
+- !private ["s9EquatableP", "qMSG"]
+- !private ["5Gloss6GlossyP", "bankIC"]
+- !private ["5Gloss6GlossyP", "bankID"]
+- !private ["5Gloss6GlossyP", "bankName"]
+- !private ["5Gloss6GlossyP", "pmIC"]
+- !private ["5Gloss6GlossyP", "pmID"]
+- !private ["5Gloss6GlossyP", "pmName"]
+- !private ["5Gloss6GlossyP", "qMSG"]
+- !private ["s8HashableP", "PMInteractor"]
+- !private ["s8HashableP", "Payment"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "bankIC"]
+- !private ["s8HashableP", "bankID"]
+- !private ["s8HashableP", "bankName"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "loadProperties"]
+- !private ["s8HashableP", "mainBankData"]
+- !private ["s8HashableP", "mainPMData"]
+- !private ["s8HashableP", "mainPMInteractor"]
+- !private ["s8HashableP", "mainPayment"]
+- !private ["s8HashableP", "mainQuotasData"]
+- !private ["s8HashableP", "pmAmount"]
+- !private ["s8HashableP", "pmBank"]
+- !private ["s8HashableP", "pmBankIC"]
+- !private ["s8HashableP", "pmBankID"]
+- !private ["s8HashableP", "pmIC"]
+- !private ["s8HashableP", "pmID"]
+- !private ["s8HashableP", "pmName"]
+- !private ["s8HashableP", "pmPM"]
+- !private ["s8HashableP", "pmPMIC"]
+- !private ["s8HashableP", "pmPMID"]
+- !private ["s8HashableP", "pmQuotas"]
+- !private ["s8HashableP", "qMSG"]
+- !private ["5PayMe24InteractorOutputProtocolP", "init"]
+- !private ["5Gloss13JSONDecodableP", "bankIC"]
+- !private ["5Gloss13JSONDecodableP", "bankID"]
+- !private ["5Gloss13JSONDecodableP", "bankName"]
+- !private ["5Gloss13JSONDecodableP", "pmIC"]
+- !private ["5Gloss13JSONDecodableP", "pmID"]
+- !private ["5Gloss13JSONDecodableP", "pmName"]
+- !private ["5Gloss13JSONDecodableP", "qMSG"]
+- !private ["5Gloss13JSONEncodableP", "bankIC"]
+- !private ["5Gloss13JSONEncodableP", "bankID"]
+- !private ["5Gloss13JSONEncodableP", "bankName"]
+- !private ["5Gloss13JSONEncodableP", "pmIC"]
+- !private ["5Gloss13JSONEncodableP", "pmID"]
+- !private ["5Gloss13JSONEncodableP", "pmName"]
+- !private ["5Gloss13JSONEncodableP", "qMSG"]
+- ["So8NSObjectC", "Banks"]
+- ["So8NSObjectC", "Double"]
+- ["So8NSObjectC", "PM"]
+- !private ["So8NSObjectC", "PMInteractor"]
+- ["So8NSObjectC", "PMInteractorProtocol"]
+- ["So8NSObjectC", "Payment"]
+- ["So8NSObjectC", "Quotas"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "bankIC"]
+- !private ["So8NSObjectC", "bankID"]
+- !private ["So8NSObjectC", "bankName"]
+- ["So8NSObjectC", "getBanks"]
+- ["So8NSObjectC", "getPM"]
+- ["So8NSObjectC", "getQuotas"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "loadProperties"]
+- ["So8NSObjectC", "mainBankData"]
+- ["So8NSObjectC", "mainPMData"]
+- ["So8NSObjectC", "mainPMInteractor"]
+- ["So8NSObjectC", "mainPayment"]
+- ["So8NSObjectC", "mainQuotasData"]
+- !private ["So8NSObjectC", "pmAmount"]
+- !private ["So8NSObjectC", "pmBank"]
+- !private ["So8NSObjectC", "pmBankIC"]
+- !private ["So8NSObjectC", "pmBankID"]
+- !private ["So8NSObjectC", "pmIC"]
+- !private ["So8NSObjectC", "pmID"]
+- !private ["So8NSObjectC", "pmName"]
+- !private ["So8NSObjectC", "pmPM"]
+- !private ["So8NSObjectC", "pmPMIC"]
+- !private ["So8NSObjectC", "pmPMID"]
+- !private ["So8NSObjectC", "pmQuotas"]
+- !private ["So8NSObjectC", "qMSG"]
+- ["So8NSObjectC", "setDataToView"]
+- ["So8NSObjectC", "updateAmountOnPayment"]
+- ["So8NSObjectC", "updateBankOnPayment"]
+- ["So8NSObjectC", "updatePMOnPayment"]
+- ["So8NSObjectC", "updateQuotaOnPayment"]
+- !private ["So16NSObjectProtocolP", "PMInteractor"]
+- !private ["So16NSObjectProtocolP", "Payment"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "bankIC"]
+- !private ["So16NSObjectProtocolP", "bankID"]
+- !private ["So16NSObjectProtocolP", "bankName"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "loadProperties"]
+- !private ["So16NSObjectProtocolP", "mainBankData"]
+- !private ["So16NSObjectProtocolP", "mainPMData"]
+- !private ["So16NSObjectProtocolP", "mainPMInteractor"]
+- !private ["So16NSObjectProtocolP", "mainPayment"]
+- !private ["So16NSObjectProtocolP", "mainQuotasData"]
+- !private ["So16NSObjectProtocolP", "pmAmount"]
+- !private ["So16NSObjectProtocolP", "pmBank"]
+- !private ["So16NSObjectProtocolP", "pmBankIC"]
+- !private ["So16NSObjectProtocolP", "pmBankID"]
+- !private ["So16NSObjectProtocolP", "pmIC"]
+- !private ["So16NSObjectProtocolP", "pmID"]
+- !private ["So16NSObjectProtocolP", "pmName"]
+- !private ["So16NSObjectProtocolP", "pmPM"]
+- !private ["So16NSObjectProtocolP", "pmPMIC"]
+- !private ["So16NSObjectProtocolP", "pmPMID"]
+- !private ["So16NSObjectProtocolP", "pmQuotas"]
+- !private ["So16NSObjectProtocolP", "qMSG"]
+- !private ["5PayMe2PMC", "pmIC"]
+- !private ["5PayMe2PMC", "pmID"]
+- !private ["5PayMe2PMC", "pmName"]
+- !private ["5PayMe12PMInteractorC", "deinit"]
+- !private ["5PayMe12PMInteractorC", "init"]
+- !private ["5PayMe20PMInteractorProtocolP", "getBanks"]
+- !private ["5PayMe20PMInteractorProtocolP", "getPM"]
+- !private ["5PayMe20PMInteractorProtocolP", "getQuotas"]
+- !private ["5PayMe20PMInteractorProtocolP", "init"]
+- ["5PayMe11PMPresenterC", "Banks"]
+- ["5PayMe11PMPresenterC", "Double"]
+- ["5PayMe11PMPresenterC", "PM"]
+- !private ["5PayMe11PMPresenterC", "PMInteractor"]
+- ["5PayMe11PMPresenterC", "PMInteractorProtocol"]
+- ["5PayMe11PMPresenterC", "Payment"]
+- ["5PayMe11PMPresenterC", "Quotas"]
+- ["5PayMe11PMPresenterC", "deinit"]
+- ["5PayMe11PMPresenterC", "getBanks"]
+- ["5PayMe11PMPresenterC", "getPM"]
+- ["5PayMe11PMPresenterC", "getQuotas"]
+- ["5PayMe11PMPresenterC", "init"]
+- ["5PayMe11PMPresenterC", "loadProperties"]
+- ["5PayMe11PMPresenterC", "mainBankData"]
+- ["5PayMe11PMPresenterC", "mainPMData"]
+- !private ["5PayMe11PMPresenterC", "mainPMInteractor"]
+- ["5PayMe11PMPresenterC", "mainPayment"]
+- ["5PayMe11PMPresenterC", "mainQuotasData"]
+- ["5PayMe11PMPresenterC", "setDataToView"]
+- ["5PayMe11PMPresenterC", "updateAmountOnPayment"]
+- ["5PayMe11PMPresenterC", "updateBankOnPayment"]
+- ["5PayMe11PMPresenterC", "updatePMOnPayment"]
+- ["5PayMe11PMPresenterC", "updateQuotaOnPayment"]
+- !private ["5PayMe7PaymentC", "init"]
+- !private ["5PayMe7PaymentC", "pmAmount"]
+- !private ["5PayMe7PaymentC", "pmBank"]
+- !private ["5PayMe7PaymentC", "pmBankIC"]
+- !private ["5PayMe7PaymentC", "pmBankID"]
+- !private ["5PayMe7PaymentC", "pmPM"]
+- !private ["5PayMe7PaymentC", "pmPMIC"]
+- !private ["5PayMe7PaymentC", "pmPMID"]
+- !private ["5PayMe7PaymentC", "pmQuotas"]
+- !private ["5PayMe6QuotasC", "qMSG"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PMInteractor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Payment"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bankIC"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bankID"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bankName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "loadProperties"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mainBankData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mainPMData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mainPMInteractor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mainPayment"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mainQuotasData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pmAmount"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pmBank"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pmBankIC"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pmBankID"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pmIC"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pmID"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pmName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pmPM"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pmPMIC"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pmPMID"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pmQuotas"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "qMSG"]
+depends-nominal:
+- !private "5PayMe5BanksC"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "s9EquatableP"
+- !private "5Gloss6GlossyP"
+- "s8HashableP"
+- !private "5PayMe24InteractorOutputProtocolP"
+- !private "5Gloss13JSONDecodableP"
+- !private "5Gloss13JSONEncodableP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "5PayMe2PMC"
+- !private "5PayMe12PMInteractorC"
+- !private "5PayMe20PMInteractorProtocolP"
+- "5PayMe11PMPresenterC"
+- !private "5PayMe7PaymentC"
+- !private "5PayMe6QuotasC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/DropDown/DropDown.framework/Modules/DropDown.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/Gloss/Gloss.framework/Modules/Gloss.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/SwiftToast/SwiftToast.framework/Modules/SwiftToast.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Modules/NVActivityIndicatorView.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/SCLAlertView/SCLAlertView.framework/Modules/SCLAlertView.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/DropDown/DropDown.framework/Headers/DropDown-umbrella.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/Gloss/Gloss.framework/Headers/Gloss-umbrella.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/SwiftToast/SwiftToast.framework/Headers/SwiftToast-umbrella.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Headers/NVActivityIndicatorView-umbrella.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/SCLAlertView/SCLAlertView.framework/Headers/SCLAlertView-umbrella.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/DropDown/DropDown.framework/Headers/DropDown-Swift.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/Gloss/Gloss.framework/Headers/Gloss-Swift.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/SwiftToast/SwiftToast.framework/Headers/SwiftToast-Swift.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Headers/NVActivityIndicatorView-Swift.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/SCLAlertView/SCLAlertView.framework/Headers/SCLAlertView-Swift.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/DropDown/DropDown.framework/Modules/module.modulemap"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/Gloss/Gloss.framework/Modules/module.modulemap"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/SwiftToast/SwiftToast.framework/Modules/module.modulemap"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Modules/module.modulemap"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/SCLAlertView/SCLAlertView.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "a45c1744a2549cdab1e0c3c2d54a3e16"

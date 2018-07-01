@@ -1,0 +1,621 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PaymentProcessedView"
+provides-nominal:
+- "5PayMe20PaymentProcessedViewC"
+provides-member:
+- ["5PayMe20PaymentProcessedViewC", ""]
+provides-dynamic-lookup:
+- "aceptAct"
+- "pmAmountLabel"
+- "pmBankIC"
+- "pmBankLabel"
+- "pmPMIC"
+- "pmPMLabel"
+- "pmQuotasLabel"
+depends-top-level:
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "PMPresenter"
+- "PaymentProcessedView"
+- !private "String"
+- !private "StringLiteralType"
+- "UIImageView"
+- "UILabel"
+- !private "UINib"
+- "UIView"
+depends-member:
+- !private ["8DropDown10AnchorViewP", "String"]
+- !private ["8DropDown10AnchorViewP", "UINib"]
+- ["8DropDown10AnchorViewP", ""]
+- !private ["8DropDown10AnchorViewP", "dismissView"]
+- !private ["8DropDown10AnchorViewP", "downloadImageFromURL"]
+- !private ["8DropDown10AnchorViewP", "init"]
+- !private ["8DropDown10AnchorViewP", "mainPMPresenter"]
+- !private ["8DropDown10AnchorViewP", "pmAmountLabel"]
+- !private ["8DropDown10AnchorViewP", "pmBankIC"]
+- !private ["8DropDown10AnchorViewP", "pmBankLabel"]
+- !private ["8DropDown10AnchorViewP", "pmPMIC"]
+- !private ["8DropDown10AnchorViewP", "pmPMLabel"]
+- !private ["8DropDown10AnchorViewP", "pmQuotasLabel"]
+- !private ["8DropDown10AnchorViewP", "text"]
+- !private ["Sa", "subscript"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["So15CALayerDelegateP", "String"]
+- !private ["So15CALayerDelegateP", "UINib"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "dismissView"]
+- !private ["So15CALayerDelegateP", "downloadImageFromURL"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "mainPMPresenter"]
+- !private ["So15CALayerDelegateP", "pmAmountLabel"]
+- !private ["So15CALayerDelegateP", "pmBankIC"]
+- !private ["So15CALayerDelegateP", "pmBankLabel"]
+- !private ["So15CALayerDelegateP", "pmPMIC"]
+- !private ["So15CALayerDelegateP", "pmPMLabel"]
+- !private ["So15CALayerDelegateP", "pmQuotasLabel"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "UINib"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "dismissView"]
+- !private ["s7CVarArgP", "downloadImageFromURL"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instantiate"]
+- !private ["s7CVarArgP", "mainPMPresenter"]
+- !private ["s7CVarArgP", "mainPayment"]
+- !private ["s7CVarArgP", "pmAmount"]
+- !private ["s7CVarArgP", "pmAmountLabel"]
+- !private ["s7CVarArgP", "pmBank"]
+- !private ["s7CVarArgP", "pmBankIC"]
+- !private ["s7CVarArgP", "pmBankLabel"]
+- !private ["s7CVarArgP", "pmPM"]
+- !private ["s7CVarArgP", "pmPMIC"]
+- !private ["s7CVarArgP", "pmPMLabel"]
+- !private ["s7CVarArgP", "pmQuotas"]
+- !private ["s7CVarArgP", "pmQuotasLabel"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "UINib"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "dismissView"]
+- !private ["s28CustomDebugStringConvertibleP", "downloadImageFromURL"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instantiate"]
+- !private ["s28CustomDebugStringConvertibleP", "mainPMPresenter"]
+- !private ["s28CustomDebugStringConvertibleP", "mainPayment"]
+- !private ["s28CustomDebugStringConvertibleP", "pmAmount"]
+- !private ["s28CustomDebugStringConvertibleP", "pmAmountLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "pmBank"]
+- !private ["s28CustomDebugStringConvertibleP", "pmBankIC"]
+- !private ["s28CustomDebugStringConvertibleP", "pmBankLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "pmPM"]
+- !private ["s28CustomDebugStringConvertibleP", "pmPMIC"]
+- !private ["s28CustomDebugStringConvertibleP", "pmPMLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "pmQuotas"]
+- !private ["s28CustomDebugStringConvertibleP", "pmQuotasLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "UINib"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "dismissView"]
+- !private ["s23CustomStringConvertibleP", "downloadImageFromURL"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instantiate"]
+- !private ["s23CustomStringConvertibleP", "mainPMPresenter"]
+- !private ["s23CustomStringConvertibleP", "mainPayment"]
+- !private ["s23CustomStringConvertibleP", "pmAmount"]
+- !private ["s23CustomStringConvertibleP", "pmAmountLabel"]
+- !private ["s23CustomStringConvertibleP", "pmBank"]
+- !private ["s23CustomStringConvertibleP", "pmBankIC"]
+- !private ["s23CustomStringConvertibleP", "pmBankLabel"]
+- !private ["s23CustomStringConvertibleP", "pmPM"]
+- !private ["s23CustomStringConvertibleP", "pmPMIC"]
+- !private ["s23CustomStringConvertibleP", "pmPMLabel"]
+- !private ["s23CustomStringConvertibleP", "pmQuotas"]
+- !private ["s23CustomStringConvertibleP", "pmQuotasLabel"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "String"]
+- !private ["s9EquatableP", "UINib"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "dismissView"]
+- !private ["s9EquatableP", "downloadImageFromURL"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "instantiate"]
+- !private ["s9EquatableP", "mainPMPresenter"]
+- !private ["s9EquatableP", "mainPayment"]
+- !private ["s9EquatableP", "pmAmount"]
+- !private ["s9EquatableP", "pmAmountLabel"]
+- !private ["s9EquatableP", "pmBank"]
+- !private ["s9EquatableP", "pmBankIC"]
+- !private ["s9EquatableP", "pmBankLabel"]
+- !private ["s9EquatableP", "pmPM"]
+- !private ["s9EquatableP", "pmPMIC"]
+- !private ["s9EquatableP", "pmPMLabel"]
+- !private ["s9EquatableP", "pmQuotas"]
+- !private ["s9EquatableP", "pmQuotasLabel"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "text"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "String"]
+- !private ["s8HashableP", "UINib"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "dismissView"]
+- !private ["s8HashableP", "downloadImageFromURL"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "instantiate"]
+- !private ["s8HashableP", "mainPMPresenter"]
+- !private ["s8HashableP", "mainPayment"]
+- !private ["s8HashableP", "pmAmount"]
+- !private ["s8HashableP", "pmAmountLabel"]
+- !private ["s8HashableP", "pmBank"]
+- !private ["s8HashableP", "pmBankIC"]
+- !private ["s8HashableP", "pmBankLabel"]
+- !private ["s8HashableP", "pmPM"]
+- !private ["s8HashableP", "pmPMIC"]
+- !private ["s8HashableP", "pmPMLabel"]
+- !private ["s8HashableP", "pmQuotas"]
+- !private ["s8HashableP", "pmQuotasLabel"]
+- !private ["s8HashableP", "text"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["So8NSCodingP", "String"]
+- !private ["So8NSCodingP", "UINib"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "dismissView"]
+- !private ["So8NSCodingP", "downloadImageFromURL"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "mainPMPresenter"]
+- !private ["So8NSCodingP", "pmAmountLabel"]
+- !private ["So8NSCodingP", "pmBankIC"]
+- !private ["So8NSCodingP", "pmBankLabel"]
+- !private ["So8NSCodingP", "pmPMIC"]
+- !private ["So8NSCodingP", "pmPMLabel"]
+- !private ["So8NSCodingP", "pmQuotasLabel"]
+- !private ["So8NSCodingP", "text"]
+- ["So8NSObjectC", "PMPresenter"]
+- !private ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "UILabel"]
+- !private ["So8NSObjectC", "UINib"]
+- ["So8NSObjectC", "UIView"]
+- ["So8NSObjectC", "aceptAct"]
+- !private ["So8NSObjectC", "dismissView"]
+- !private ["So8NSObjectC", "downloadImageFromURL"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "instanceFromNib"]
+- !private ["So8NSObjectC", "instantiate"]
+- ["So8NSObjectC", "mainPMPresenter"]
+- !private ["So8NSObjectC", "mainPayment"]
+- !private ["So8NSObjectC", "pmAmount"]
+- ["So8NSObjectC", "pmAmountLabel"]
+- !private ["So8NSObjectC", "pmBank"]
+- ["So8NSObjectC", "pmBankIC"]
+- ["So8NSObjectC", "pmBankLabel"]
+- !private ["So8NSObjectC", "pmPM"]
+- ["So8NSObjectC", "pmPMIC"]
+- ["So8NSObjectC", "pmPMLabel"]
+- !private ["So8NSObjectC", "pmQuotas"]
+- ["So8NSObjectC", "pmQuotasLabel"]
+- ["So8NSObjectC", "setupView"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So16NSObjectProtocolP", "String"]
+- !private ["So16NSObjectProtocolP", "UINib"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "dismissView"]
+- !private ["So16NSObjectProtocolP", "downloadImageFromURL"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "instantiate"]
+- !private ["So16NSObjectProtocolP", "mainPMPresenter"]
+- !private ["So16NSObjectProtocolP", "mainPayment"]
+- !private ["So16NSObjectProtocolP", "pmAmount"]
+- !private ["So16NSObjectProtocolP", "pmAmountLabel"]
+- !private ["So16NSObjectProtocolP", "pmBank"]
+- !private ["So16NSObjectProtocolP", "pmBankIC"]
+- !private ["So16NSObjectProtocolP", "pmBankLabel"]
+- !private ["So16NSObjectProtocolP", "pmPM"]
+- !private ["So16NSObjectProtocolP", "pmPMIC"]
+- !private ["So16NSObjectProtocolP", "pmPMLabel"]
+- !private ["So16NSObjectProtocolP", "pmQuotas"]
+- !private ["So16NSObjectProtocolP", "pmQuotasLabel"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["5PayMe11PMPresenterC", "mainPayment"]
+- !private ["5PayMe7PaymentC", "pmAmount"]
+- !private ["5PayMe7PaymentC", "pmBank"]
+- !private ["5PayMe7PaymentC", "pmBankIC"]
+- !private ["5PayMe7PaymentC", "pmPM"]
+- !private ["5PayMe7PaymentC", "pmPMIC"]
+- !private ["5PayMe7PaymentC", "pmQuotas"]
+- ["5PayMe20PaymentProcessedViewC", "PMPresenter"]
+- !private ["5PayMe20PaymentProcessedViewC", "String"]
+- ["5PayMe20PaymentProcessedViewC", "UIImageView"]
+- ["5PayMe20PaymentProcessedViewC", "UILabel"]
+- !private ["5PayMe20PaymentProcessedViewC", "UINib"]
+- ["5PayMe20PaymentProcessedViewC", "UIView"]
+- ["5PayMe20PaymentProcessedViewC", "aceptAct"]
+- ["5PayMe20PaymentProcessedViewC", "deinit"]
+- !private ["5PayMe20PaymentProcessedViewC", "dismissView"]
+- ["5PayMe20PaymentProcessedViewC", "init"]
+- ["5PayMe20PaymentProcessedViewC", "instanceFromNib"]
+- ["5PayMe20PaymentProcessedViewC", "mainPMPresenter"]
+- ["5PayMe20PaymentProcessedViewC", "pmAmountLabel"]
+- ["5PayMe20PaymentProcessedViewC", "pmBankIC"]
+- ["5PayMe20PaymentProcessedViewC", "pmBankLabel"]
+- ["5PayMe20PaymentProcessedViewC", "pmPMIC"]
+- ["5PayMe20PaymentProcessedViewC", "pmPMLabel"]
+- ["5PayMe20PaymentProcessedViewC", "pmQuotasLabel"]
+- ["5PayMe20PaymentProcessedViewC", "setupView"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "downloadImageFromURL"]
+- !private ["So29UIAccessibilityIdentificationP", "String"]
+- !private ["So29UIAccessibilityIdentificationP", "UINib"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "dismissView"]
+- !private ["So29UIAccessibilityIdentificationP", "downloadImageFromURL"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "mainPMPresenter"]
+- !private ["So29UIAccessibilityIdentificationP", "pmAmountLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "pmBankIC"]
+- !private ["So29UIAccessibilityIdentificationP", "pmBankLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "pmPMIC"]
+- !private ["So29UIAccessibilityIdentificationP", "pmPMLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "pmQuotasLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "String"]
+- !private ["So12UIAppearanceP", "UINib"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "dismissView"]
+- !private ["So12UIAppearanceP", "downloadImageFromURL"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "mainPMPresenter"]
+- !private ["So12UIAppearanceP", "pmAmountLabel"]
+- !private ["So12UIAppearanceP", "pmBankIC"]
+- !private ["So12UIAppearanceP", "pmBankLabel"]
+- !private ["So12UIAppearanceP", "pmPMIC"]
+- !private ["So12UIAppearanceP", "pmPMLabel"]
+- !private ["So12UIAppearanceP", "pmQuotasLabel"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "String"]
+- !private ["So21UIAppearanceContainerP", "UINib"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "dismissView"]
+- !private ["So21UIAppearanceContainerP", "downloadImageFromURL"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "mainPMPresenter"]
+- !private ["So21UIAppearanceContainerP", "pmAmountLabel"]
+- !private ["So21UIAppearanceContainerP", "pmBankIC"]
+- !private ["So21UIAppearanceContainerP", "pmBankLabel"]
+- !private ["So21UIAppearanceContainerP", "pmPMIC"]
+- !private ["So21UIAppearanceContainerP", "pmPMLabel"]
+- !private ["So21UIAppearanceContainerP", "pmQuotasLabel"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So17UICoordinateSpaceP", "String"]
+- !private ["So17UICoordinateSpaceP", "UINib"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "dismissView"]
+- !private ["So17UICoordinateSpaceP", "downloadImageFromURL"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "mainPMPresenter"]
+- !private ["So17UICoordinateSpaceP", "pmAmountLabel"]
+- !private ["So17UICoordinateSpaceP", "pmBankIC"]
+- !private ["So17UICoordinateSpaceP", "pmBankLabel"]
+- !private ["So17UICoordinateSpaceP", "pmPMIC"]
+- !private ["So17UICoordinateSpaceP", "pmPMLabel"]
+- !private ["So17UICoordinateSpaceP", "pmQuotasLabel"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "String"]
+- !private ["So13UIDynamicItemP", "UINib"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "dismissView"]
+- !private ["So13UIDynamicItemP", "downloadImageFromURL"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "mainPMPresenter"]
+- !private ["So13UIDynamicItemP", "pmAmountLabel"]
+- !private ["So13UIDynamicItemP", "pmBankIC"]
+- !private ["So13UIDynamicItemP", "pmBankLabel"]
+- !private ["So13UIDynamicItemP", "pmPMIC"]
+- !private ["So13UIDynamicItemP", "pmPMLabel"]
+- !private ["So13UIDynamicItemP", "pmQuotasLabel"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "String"]
+- !private ["So18UIFocusEnvironmentP", "UINib"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "dismissView"]
+- !private ["So18UIFocusEnvironmentP", "downloadImageFromURL"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "mainPMPresenter"]
+- !private ["So18UIFocusEnvironmentP", "pmAmountLabel"]
+- !private ["So18UIFocusEnvironmentP", "pmBankIC"]
+- !private ["So18UIFocusEnvironmentP", "pmBankLabel"]
+- !private ["So18UIFocusEnvironmentP", "pmPMIC"]
+- !private ["So18UIFocusEnvironmentP", "pmPMLabel"]
+- !private ["So18UIFocusEnvironmentP", "pmQuotasLabel"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So11UIFocusItemP", "String"]
+- !private ["So11UIFocusItemP", "UINib"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "dismissView"]
+- !private ["So11UIFocusItemP", "downloadImageFromURL"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "mainPMPresenter"]
+- !private ["So11UIFocusItemP", "pmAmountLabel"]
+- !private ["So11UIFocusItemP", "pmBankIC"]
+- !private ["So11UIFocusItemP", "pmBankLabel"]
+- !private ["So11UIFocusItemP", "pmPMIC"]
+- !private ["So11UIFocusItemP", "pmPMLabel"]
+- !private ["So11UIFocusItemP", "pmQuotasLabel"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So11UIImageViewC", "downloadImageFromURL"]
+- !private ["So7UILabelC", "text"]
+- !private ["So5UINibC", "init"]
+- !private ["So5UINibC", "instantiate"]
+- !private ["So30UIPasteConfigurationSupportingP", "String"]
+- !private ["So30UIPasteConfigurationSupportingP", "UINib"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "dismissView"]
+- !private ["So30UIPasteConfigurationSupportingP", "downloadImageFromURL"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "mainPMPresenter"]
+- !private ["So30UIPasteConfigurationSupportingP", "pmAmountLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "pmBankIC"]
+- !private ["So30UIPasteConfigurationSupportingP", "pmBankLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "pmPMIC"]
+- !private ["So30UIPasteConfigurationSupportingP", "pmPMLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "pmQuotasLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- ["So11UIResponderC", "PMPresenter"]
+- !private ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "UILabel"]
+- !private ["So11UIResponderC", "UINib"]
+- ["So11UIResponderC", "UIView"]
+- ["So11UIResponderC", "aceptAct"]
+- !private ["So11UIResponderC", "dismissView"]
+- !private ["So11UIResponderC", "downloadImageFromURL"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "instanceFromNib"]
+- ["So11UIResponderC", "mainPMPresenter"]
+- ["So11UIResponderC", "pmAmountLabel"]
+- ["So11UIResponderC", "pmBankIC"]
+- ["So11UIResponderC", "pmBankLabel"]
+- ["So11UIResponderC", "pmPMIC"]
+- ["So11UIResponderC", "pmPMLabel"]
+- ["So11UIResponderC", "pmQuotasLabel"]
+- ["So11UIResponderC", "setupView"]
+- !private ["So11UIResponderC", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "String"]
+- !private ["So30UIResponderStandardEditActionsP", "UINib"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "dismissView"]
+- !private ["So30UIResponderStandardEditActionsP", "downloadImageFromURL"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "mainPMPresenter"]
+- !private ["So30UIResponderStandardEditActionsP", "pmAmountLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "pmBankIC"]
+- !private ["So30UIResponderStandardEditActionsP", "pmBankLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "pmPMIC"]
+- !private ["So30UIResponderStandardEditActionsP", "pmPMLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "pmQuotasLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So18UITraitEnvironmentP", "String"]
+- !private ["So18UITraitEnvironmentP", "UINib"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "dismissView"]
+- !private ["So18UITraitEnvironmentP", "downloadImageFromURL"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "mainPMPresenter"]
+- !private ["So18UITraitEnvironmentP", "pmAmountLabel"]
+- !private ["So18UITraitEnvironmentP", "pmBankIC"]
+- !private ["So18UITraitEnvironmentP", "pmBankLabel"]
+- !private ["So18UITraitEnvironmentP", "pmPMIC"]
+- !private ["So18UITraitEnvironmentP", "pmPMLabel"]
+- !private ["So18UITraitEnvironmentP", "pmQuotasLabel"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- ["So6UIViewC", "PMPresenter"]
+- !private ["So6UIViewC", "String"]
+- ["So6UIViewC", "UIImageView"]
+- ["So6UIViewC", "UILabel"]
+- !private ["So6UIViewC", "UINib"]
+- ["So6UIViewC", "UIView"]
+- ["So6UIViewC", ""]
+- ["So6UIViewC", "aceptAct"]
+- !private ["So6UIViewC", "dismissView"]
+- !private ["So6UIViewC", "downloadImageFromURL"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "instanceFromNib"]
+- ["So6UIViewC", "mainPMPresenter"]
+- ["So6UIViewC", "pmAmountLabel"]
+- ["So6UIViewC", "pmBankIC"]
+- ["So6UIViewC", "pmBankLabel"]
+- ["So6UIViewC", "pmPMIC"]
+- ["So6UIViewC", "pmPMLabel"]
+- ["So6UIViewC", "pmQuotasLabel"]
+- ["So6UIViewC", "setupView"]
+- !private ["So6UIViewC", "text"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "String"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UINib"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "dismissView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "downloadImageFromURL"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "mainPMPresenter"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "pmAmountLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "pmBankIC"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "pmBankLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "pmPMIC"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "pmPMLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "pmQuotasLabel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UINib"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dismissView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "downloadImageFromURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mainPMPresenter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mainPayment"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pmAmount"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pmAmountLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pmBank"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pmBankIC"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pmBankLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pmPM"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pmPMIC"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pmPMLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pmQuotas"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pmQuotasLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "8DropDown10AnchorViewP"
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "5PayMe11PMPresenterC"
+- !private "5PayMe7PaymentC"
+- "5PayMe20PaymentProcessedViewC"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- !private "So11UIImageViewC"
+- !private "So7UILabelC"
+- !private "So5UINibC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- !private "9Alamofire14URLConvertibleP"
+- !private "s14_ArrayProtocolP"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/DropDown/DropDown.framework/Modules/DropDown.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/Gloss/Gloss.framework/Modules/Gloss.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/SwiftToast/SwiftToast.framework/Modules/SwiftToast.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Modules/NVActivityIndicatorView.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/SCLAlertView/SCLAlertView.framework/Modules/SCLAlertView.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/DropDown/DropDown.framework/Headers/DropDown-umbrella.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/Gloss/Gloss.framework/Headers/Gloss-umbrella.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/SwiftToast/SwiftToast.framework/Headers/SwiftToast-umbrella.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Headers/NVActivityIndicatorView-umbrella.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/SCLAlertView/SCLAlertView.framework/Headers/SCLAlertView-umbrella.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/DropDown/DropDown.framework/Headers/DropDown-Swift.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/Gloss/Gloss.framework/Headers/Gloss-Swift.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/SwiftToast/SwiftToast.framework/Headers/SwiftToast-Swift.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Headers/NVActivityIndicatorView-Swift.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/SCLAlertView/SCLAlertView.framework/Headers/SCLAlertView-Swift.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/DropDown/DropDown.framework/Modules/module.modulemap"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/Gloss/Gloss.framework/Modules/module.modulemap"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/SwiftToast/SwiftToast.framework/Modules/module.modulemap"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Modules/module.modulemap"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/SCLAlertView/SCLAlertView.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "d1d5e2e0fd1837910932317bf00467f1"

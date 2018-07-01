@@ -1,0 +1,795 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PaymentAmountVC"
+provides-nominal:
+- "5PayMe15PaymentAmountVCC"
+provides-member:
+- ["5PayMe15PaymentAmountVCC", ""]
+provides-dynamic-lookup:
+- "continueActButton"
+- "pmAmountTF"
+- "prepare"
+- "showPaymentProcessed"
+- "viewDidAppear"
+- "viewDidLoad"
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- "Bool"
+- "CastingPrecedence"
+- !private "Double"
+- "PMPresenter"
+- "PaymentAmountVC"
+- !private "PaymentMethodsVC"
+- "PaymentProcessedView"
+- "UIStoryboardSegue"
+- "UITextField"
+- !private "_ImageLiteralType"
+- "mainBaseVC"
+depends-member:
+- !private ["8DropDown10AnchorViewP", "addSubview"]
+- !private ["8DropDown10AnchorViewP", "center"]
+- !private ["8DropDown10AnchorViewP", "instanceFromNib"]
+- !private ["8DropDown10AnchorViewP", "mainPMPresenter"]
+- !private ["8DropDown10AnchorViewP", "presentView"]
+- !private ["8DropDown10AnchorViewP", "setupView"]
+- !private ["8DropDown10AnchorViewP", "text"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "addSubview"]
+- !private ["So15CALayerDelegateP", "center"]
+- !private ["So15CALayerDelegateP", "instanceFromNib"]
+- !private ["So15CALayerDelegateP", "mainPMPresenter"]
+- !private ["So15CALayerDelegateP", "presentView"]
+- !private ["So15CALayerDelegateP", "setupView"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", "Double"]
+- ["s7CVarArgP", "PMPresenter"]
+- !private ["s7CVarArgP", "PaymentProcessedView"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addObserver"]
+- !private ["s7CVarArgP", "addSubview"]
+- !private ["s7CVarArgP", "buildNavigationBar"]
+- !private ["s7CVarArgP", "center"]
+- !private ["s7CVarArgP", "destination"]
+- !private ["s7CVarArgP", "identifier"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instanceFromNib"]
+- !private ["s7CVarArgP", "mainPMPresenter"]
+- !private ["s7CVarArgP", "mainPaymentProcessedView"]
+- !private ["s7CVarArgP", "notificationCenter"]
+- !private ["s7CVarArgP", "performSegue"]
+- !private ["s7CVarArgP", "pmAmountTF"]
+- !private ["s7CVarArgP", "presentView"]
+- !private ["s7CVarArgP", "setupView"]
+- !private ["s7CVarArgP", "showPaymentProcessed"]
+- !private ["s7CVarArgP", "showToastMSG"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "updateAmountOnPayment"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Double"]
+- ["s28CustomDebugStringConvertibleP", "PMPresenter"]
+- !private ["s28CustomDebugStringConvertibleP", "PaymentProcessedView"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "addSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "buildNavigationBar"]
+- !private ["s28CustomDebugStringConvertibleP", "center"]
+- !private ["s28CustomDebugStringConvertibleP", "destination"]
+- !private ["s28CustomDebugStringConvertibleP", "identifier"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instanceFromNib"]
+- !private ["s28CustomDebugStringConvertibleP", "mainPMPresenter"]
+- !private ["s28CustomDebugStringConvertibleP", "mainPaymentProcessedView"]
+- !private ["s28CustomDebugStringConvertibleP", "notificationCenter"]
+- !private ["s28CustomDebugStringConvertibleP", "performSegue"]
+- !private ["s28CustomDebugStringConvertibleP", "pmAmountTF"]
+- !private ["s28CustomDebugStringConvertibleP", "presentView"]
+- !private ["s28CustomDebugStringConvertibleP", "setupView"]
+- !private ["s28CustomDebugStringConvertibleP", "showPaymentProcessed"]
+- !private ["s28CustomDebugStringConvertibleP", "showToastMSG"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "updateAmountOnPayment"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "showPaymentProcessed"]
+- !private ["s23CustomStringConvertibleP", "Double"]
+- ["s23CustomStringConvertibleP", "PMPresenter"]
+- !private ["s23CustomStringConvertibleP", "PaymentProcessedView"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addObserver"]
+- !private ["s23CustomStringConvertibleP", "addSubview"]
+- !private ["s23CustomStringConvertibleP", "buildNavigationBar"]
+- !private ["s23CustomStringConvertibleP", "center"]
+- !private ["s23CustomStringConvertibleP", "destination"]
+- !private ["s23CustomStringConvertibleP", "identifier"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instanceFromNib"]
+- !private ["s23CustomStringConvertibleP", "mainPMPresenter"]
+- !private ["s23CustomStringConvertibleP", "mainPaymentProcessedView"]
+- !private ["s23CustomStringConvertibleP", "notificationCenter"]
+- !private ["s23CustomStringConvertibleP", "performSegue"]
+- !private ["s23CustomStringConvertibleP", "pmAmountTF"]
+- !private ["s23CustomStringConvertibleP", "presentView"]
+- !private ["s23CustomStringConvertibleP", "setupView"]
+- !private ["s23CustomStringConvertibleP", "showPaymentProcessed"]
+- !private ["s23CustomStringConvertibleP", "showToastMSG"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "updateAmountOnPayment"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "showPaymentProcessed"]
+- !private ["Sd", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "showPaymentProcessed"]
+- !private ["s9EquatableP", "Double"]
+- ["s9EquatableP", "PMPresenter"]
+- !private ["s9EquatableP", "PaymentProcessedView"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addObserver"]
+- !private ["s9EquatableP", "addSubview"]
+- !private ["s9EquatableP", "buildNavigationBar"]
+- !private ["s9EquatableP", "center"]
+- !private ["s9EquatableP", "destination"]
+- !private ["s9EquatableP", "identifier"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "instanceFromNib"]
+- !private ["s9EquatableP", "mainPMPresenter"]
+- !private ["s9EquatableP", "mainPaymentProcessedView"]
+- !private ["s9EquatableP", "notificationCenter"]
+- !private ["s9EquatableP", "performSegue"]
+- !private ["s9EquatableP", "pmAmountTF"]
+- !private ["s9EquatableP", "presentView"]
+- !private ["s9EquatableP", "setupView"]
+- !private ["s9EquatableP", "showPaymentProcessed"]
+- !private ["s9EquatableP", "showToastMSG"]
+- !private ["s9EquatableP", "text"]
+- !private ["s9EquatableP", "updateAmountOnPayment"]
+- !private ["s9EquatableP", "view"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "showPaymentProcessed"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s13FloatingPointP", "init"]
+- !private ["s8HashableP", "Double"]
+- ["s8HashableP", "PMPresenter"]
+- !private ["s8HashableP", "PaymentProcessedView"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addObserver"]
+- !private ["s8HashableP", "addSubview"]
+- !private ["s8HashableP", "buildNavigationBar"]
+- !private ["s8HashableP", "center"]
+- !private ["s8HashableP", "destination"]
+- !private ["s8HashableP", "identifier"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "instanceFromNib"]
+- !private ["s8HashableP", "mainPMPresenter"]
+- !private ["s8HashableP", "mainPaymentProcessedView"]
+- !private ["s8HashableP", "notificationCenter"]
+- !private ["s8HashableP", "performSegue"]
+- !private ["s8HashableP", "pmAmountTF"]
+- !private ["s8HashableP", "presentView"]
+- !private ["s8HashableP", "setupView"]
+- !private ["s8HashableP", "showPaymentProcessed"]
+- !private ["s8HashableP", "showToastMSG"]
+- !private ["s8HashableP", "text"]
+- !private ["s8HashableP", "updateAmountOnPayment"]
+- !private ["s8HashableP", "view"]
+- !private ["s8HashableP", "viewDidLoad"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "Double"]
+- ["So8NSCodingP", "PMPresenter"]
+- !private ["So8NSCodingP", "PaymentProcessedView"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addSubview"]
+- !private ["So8NSCodingP", "buildNavigationBar"]
+- !private ["So8NSCodingP", "center"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "instanceFromNib"]
+- !private ["So8NSCodingP", "mainPMPresenter"]
+- !private ["So8NSCodingP", "mainPaymentProcessedView"]
+- !private ["So8NSCodingP", "notificationCenter"]
+- !private ["So8NSCodingP", "performSegue"]
+- !private ["So8NSCodingP", "pmAmountTF"]
+- !private ["So8NSCodingP", "presentView"]
+- !private ["So8NSCodingP", "setupView"]
+- !private ["So8NSCodingP", "showPaymentProcessed"]
+- !private ["So8NSCodingP", "showToastMSG"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "Double"]
+- ["So26NSExtensionRequestHandlingP", "PMPresenter"]
+- !private ["So26NSExtensionRequestHandlingP", "PaymentProcessedView"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "buildNavigationBar"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "mainPMPresenter"]
+- !private ["So26NSExtensionRequestHandlingP", "mainPaymentProcessedView"]
+- !private ["So26NSExtensionRequestHandlingP", "notificationCenter"]
+- !private ["So26NSExtensionRequestHandlingP", "performSegue"]
+- !private ["So26NSExtensionRequestHandlingP", "pmAmountTF"]
+- !private ["So26NSExtensionRequestHandlingP", "setupView"]
+- !private ["So26NSExtensionRequestHandlingP", "showPaymentProcessed"]
+- !private ["So26NSExtensionRequestHandlingP", "showToastMSG"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "Double"]
+- ["So8NSObjectC", "PMPresenter"]
+- !private ["So8NSObjectC", "PaymentMethodsVC"]
+- ["So8NSObjectC", "PaymentProcessedView"]
+- ["So8NSObjectC", "UIStoryboardSegue"]
+- ["So8NSObjectC", "UITextField"]
+- !private ["So8NSObjectC", "addObserver"]
+- !private ["So8NSObjectC", "addSubview"]
+- !private ["So8NSObjectC", "buildNavigationBar"]
+- !private ["So8NSObjectC", "center"]
+- ["So8NSObjectC", "continueActButton"]
+- !private ["So8NSObjectC", "destination"]
+- !private ["So8NSObjectC", "identifier"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "instanceFromNib"]
+- ["So8NSObjectC", "mainPMPresenter"]
+- ["So8NSObjectC", "mainPaymentProcessedView"]
+- !private ["So8NSObjectC", "notificationCenter"]
+- !private ["So8NSObjectC", "performSegue"]
+- ["So8NSObjectC", "pmAmountTF"]
+- ["So8NSObjectC", "prepare"]
+- !private ["So8NSObjectC", "presentView"]
+- ["So8NSObjectC", "setupView"]
+- ["So8NSObjectC", "showPaymentProcessed"]
+- !private ["So8NSObjectC", "showToastMSG"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So8NSObjectC", "updateAmountOnPayment"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewDidAppear"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "Double"]
+- ["So16NSObjectProtocolP", "PMPresenter"]
+- !private ["So16NSObjectProtocolP", "PaymentProcessedView"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "addObserver"]
+- !private ["So16NSObjectProtocolP", "addSubview"]
+- !private ["So16NSObjectProtocolP", "buildNavigationBar"]
+- !private ["So16NSObjectProtocolP", "center"]
+- !private ["So16NSObjectProtocolP", "destination"]
+- !private ["So16NSObjectProtocolP", "identifier"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "instanceFromNib"]
+- !private ["So16NSObjectProtocolP", "mainPMPresenter"]
+- !private ["So16NSObjectProtocolP", "mainPaymentProcessedView"]
+- !private ["So16NSObjectProtocolP", "notificationCenter"]
+- !private ["So16NSObjectProtocolP", "performSegue"]
+- !private ["So16NSObjectProtocolP", "pmAmountTF"]
+- !private ["So16NSObjectProtocolP", "presentView"]
+- !private ["So16NSObjectProtocolP", "setupView"]
+- !private ["So16NSObjectProtocolP", "showPaymentProcessed"]
+- !private ["So16NSObjectProtocolP", "showToastMSG"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["So16NSObjectProtocolP", "updateAmountOnPayment"]
+- !private ["So16NSObjectProtocolP", "view"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- !private ["So14NSNotificationC4NameV", "showPaymentProcessed"]
+- !private ["So18NotificationCenterC", "addObserver"]
+- !private ["s7NumericP", "init"]
+- !private ["Sq", "showPaymentProcessed"]
+- ["5PayMe11PMPresenterC", "init"]
+- !private ["5PayMe11PMPresenterC", "updateAmountOnPayment"]
+- ["5PayMe15PaymentAmountVCC", "Bool"]
+- !private ["5PayMe15PaymentAmountVCC", "Double"]
+- ["5PayMe15PaymentAmountVCC", "PMPresenter"]
+- !private ["5PayMe15PaymentAmountVCC", "PaymentMethodsVC"]
+- ["5PayMe15PaymentAmountVCC", "PaymentProcessedView"]
+- ["5PayMe15PaymentAmountVCC", "UIStoryboardSegue"]
+- ["5PayMe15PaymentAmountVCC", "UITextField"]
+- !private ["5PayMe15PaymentAmountVCC", "buildNavigationBar"]
+- ["5PayMe15PaymentAmountVCC", "continueActButton"]
+- ["5PayMe15PaymentAmountVCC", "deinit"]
+- ["5PayMe15PaymentAmountVCC", "init"]
+- ["5PayMe15PaymentAmountVCC", "mainPMPresenter"]
+- ["5PayMe15PaymentAmountVCC", "mainPaymentProcessedView"]
+- !private ["5PayMe15PaymentAmountVCC", "notificationCenter"]
+- !private ["5PayMe15PaymentAmountVCC", "performSegue"]
+- ["5PayMe15PaymentAmountVCC", "pmAmountTF"]
+- ["5PayMe15PaymentAmountVCC", "prepare"]
+- ["5PayMe15PaymentAmountVCC", "setupView"]
+- ["5PayMe15PaymentAmountVCC", "showPaymentProcessed"]
+- !private ["5PayMe15PaymentAmountVCC", "showToastMSG"]
+- !private ["5PayMe15PaymentAmountVCC", "view"]
+- ["5PayMe15PaymentAmountVCC", "viewDidAppear"]
+- ["5PayMe15PaymentAmountVCC", "viewDidLoad"]
+- !private ["5PayMe16PaymentMethodsVCC", "mainPMPresenter"]
+- !private ["5PayMe20PaymentProcessedViewC", "center"]
+- !private ["5PayMe20PaymentProcessedViewC", "deinit"]
+- !private ["5PayMe20PaymentProcessedViewC", "instanceFromNib"]
+- !private ["5PayMe20PaymentProcessedViewC", "mainPMPresenter"]
+- !private ["5PayMe20PaymentProcessedViewC", "presentView"]
+- !private ["5PayMe20PaymentProcessedViewC", "setupView"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "showPaymentProcessed"]
+- !private ["s8SequenceP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s10StrideableP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "addSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "center"]
+- !private ["So29UIAccessibilityIdentificationP", "instanceFromNib"]
+- !private ["So29UIAccessibilityIdentificationP", "mainPMPresenter"]
+- !private ["So29UIAccessibilityIdentificationP", "presentView"]
+- !private ["So29UIAccessibilityIdentificationP", "setupView"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "addSubview"]
+- !private ["So12UIAppearanceP", "center"]
+- !private ["So12UIAppearanceP", "instanceFromNib"]
+- !private ["So12UIAppearanceP", "mainPMPresenter"]
+- !private ["So12UIAppearanceP", "presentView"]
+- !private ["So12UIAppearanceP", "setupView"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "Double"]
+- ["So21UIAppearanceContainerP", "PMPresenter"]
+- !private ["So21UIAppearanceContainerP", "PaymentProcessedView"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addSubview"]
+- !private ["So21UIAppearanceContainerP", "buildNavigationBar"]
+- !private ["So21UIAppearanceContainerP", "center"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "instanceFromNib"]
+- !private ["So21UIAppearanceContainerP", "mainPMPresenter"]
+- !private ["So21UIAppearanceContainerP", "mainPaymentProcessedView"]
+- !private ["So21UIAppearanceContainerP", "notificationCenter"]
+- !private ["So21UIAppearanceContainerP", "performSegue"]
+- !private ["So21UIAppearanceContainerP", "pmAmountTF"]
+- !private ["So21UIAppearanceContainerP", "presentView"]
+- !private ["So21UIAppearanceContainerP", "setupView"]
+- !private ["So21UIAppearanceContainerP", "showPaymentProcessed"]
+- !private ["So21UIAppearanceContainerP", "showToastMSG"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So26UICollectionViewDataSourceP", "mainPMPresenter"]
+- !private ["So24UICollectionViewDelegateP", "mainPMPresenter"]
+- !private ["So18UIContentContainerP", "Double"]
+- ["So18UIContentContainerP", "PMPresenter"]
+- !private ["So18UIContentContainerP", "PaymentProcessedView"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "buildNavigationBar"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "mainPMPresenter"]
+- !private ["So18UIContentContainerP", "mainPaymentProcessedView"]
+- !private ["So18UIContentContainerP", "notificationCenter"]
+- !private ["So18UIContentContainerP", "performSegue"]
+- !private ["So18UIContentContainerP", "pmAmountTF"]
+- !private ["So18UIContentContainerP", "setupView"]
+- !private ["So18UIContentContainerP", "showPaymentProcessed"]
+- !private ["So18UIContentContainerP", "showToastMSG"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So9UIControlC", "text"]
+- !private ["So17UICoordinateSpaceP", "addSubview"]
+- !private ["So17UICoordinateSpaceP", "center"]
+- !private ["So17UICoordinateSpaceP", "instanceFromNib"]
+- !private ["So17UICoordinateSpaceP", "mainPMPresenter"]
+- !private ["So17UICoordinateSpaceP", "presentView"]
+- !private ["So17UICoordinateSpaceP", "setupView"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "addSubview"]
+- !private ["So13UIDynamicItemP", "center"]
+- !private ["So13UIDynamicItemP", "instanceFromNib"]
+- !private ["So13UIDynamicItemP", "mainPMPresenter"]
+- !private ["So13UIDynamicItemP", "presentView"]
+- !private ["So13UIDynamicItemP", "setupView"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "Double"]
+- ["So18UIFocusEnvironmentP", "PMPresenter"]
+- !private ["So18UIFocusEnvironmentP", "PaymentProcessedView"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addSubview"]
+- !private ["So18UIFocusEnvironmentP", "buildNavigationBar"]
+- !private ["So18UIFocusEnvironmentP", "center"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "instanceFromNib"]
+- !private ["So18UIFocusEnvironmentP", "mainPMPresenter"]
+- !private ["So18UIFocusEnvironmentP", "mainPaymentProcessedView"]
+- !private ["So18UIFocusEnvironmentP", "notificationCenter"]
+- !private ["So18UIFocusEnvironmentP", "performSegue"]
+- !private ["So18UIFocusEnvironmentP", "pmAmountTF"]
+- !private ["So18UIFocusEnvironmentP", "presentView"]
+- !private ["So18UIFocusEnvironmentP", "setupView"]
+- !private ["So18UIFocusEnvironmentP", "showPaymentProcessed"]
+- !private ["So18UIFocusEnvironmentP", "showToastMSG"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "addSubview"]
+- !private ["So11UIFocusItemP", "center"]
+- !private ["So11UIFocusItemP", "instanceFromNib"]
+- !private ["So11UIFocusItemP", "mainPMPresenter"]
+- !private ["So11UIFocusItemP", "presentView"]
+- !private ["So11UIFocusItemP", "setupView"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So10UIKeyInputP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "Double"]
+- ["So30UIPasteConfigurationSupportingP", "PMPresenter"]
+- !private ["So30UIPasteConfigurationSupportingP", "PaymentProcessedView"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "buildNavigationBar"]
+- !private ["So30UIPasteConfigurationSupportingP", "center"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "instanceFromNib"]
+- !private ["So30UIPasteConfigurationSupportingP", "mainPMPresenter"]
+- !private ["So30UIPasteConfigurationSupportingP", "mainPaymentProcessedView"]
+- !private ["So30UIPasteConfigurationSupportingP", "notificationCenter"]
+- !private ["So30UIPasteConfigurationSupportingP", "performSegue"]
+- !private ["So30UIPasteConfigurationSupportingP", "pmAmountTF"]
+- !private ["So30UIPasteConfigurationSupportingP", "presentView"]
+- !private ["So30UIPasteConfigurationSupportingP", "setupView"]
+- !private ["So30UIPasteConfigurationSupportingP", "showPaymentProcessed"]
+- !private ["So30UIPasteConfigurationSupportingP", "showToastMSG"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "Double"]
+- ["So11UIResponderC", "PMPresenter"]
+- !private ["So11UIResponderC", "PaymentMethodsVC"]
+- ["So11UIResponderC", "PaymentProcessedView"]
+- ["So11UIResponderC", "UIStoryboardSegue"]
+- ["So11UIResponderC", "UITextField"]
+- !private ["So11UIResponderC", "addSubview"]
+- !private ["So11UIResponderC", "buildNavigationBar"]
+- !private ["So11UIResponderC", "center"]
+- ["So11UIResponderC", "continueActButton"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "instanceFromNib"]
+- ["So11UIResponderC", "mainPMPresenter"]
+- ["So11UIResponderC", "mainPaymentProcessedView"]
+- !private ["So11UIResponderC", "notificationCenter"]
+- !private ["So11UIResponderC", "performSegue"]
+- ["So11UIResponderC", "pmAmountTF"]
+- ["So11UIResponderC", "prepare"]
+- !private ["So11UIResponderC", "presentView"]
+- ["So11UIResponderC", "setupView"]
+- ["So11UIResponderC", "showPaymentProcessed"]
+- !private ["So11UIResponderC", "showToastMSG"]
+- !private ["So11UIResponderC", "text"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewDidAppear"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "Double"]
+- ["So30UIResponderStandardEditActionsP", "PMPresenter"]
+- !private ["So30UIResponderStandardEditActionsP", "PaymentProcessedView"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "buildNavigationBar"]
+- !private ["So30UIResponderStandardEditActionsP", "center"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "instanceFromNib"]
+- !private ["So30UIResponderStandardEditActionsP", "mainPMPresenter"]
+- !private ["So30UIResponderStandardEditActionsP", "mainPaymentProcessedView"]
+- !private ["So30UIResponderStandardEditActionsP", "notificationCenter"]
+- !private ["So30UIResponderStandardEditActionsP", "performSegue"]
+- !private ["So30UIResponderStandardEditActionsP", "pmAmountTF"]
+- !private ["So30UIResponderStandardEditActionsP", "presentView"]
+- !private ["So30UIResponderStandardEditActionsP", "setupView"]
+- !private ["So30UIResponderStandardEditActionsP", "showPaymentProcessed"]
+- !private ["So30UIResponderStandardEditActionsP", "showToastMSG"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So20UIScrollViewDelegateP", "mainPMPresenter"]
+- !private ["So16UIStateRestoringP", "Double"]
+- ["So16UIStateRestoringP", "PMPresenter"]
+- !private ["So16UIStateRestoringP", "PaymentProcessedView"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "buildNavigationBar"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "mainPMPresenter"]
+- !private ["So16UIStateRestoringP", "mainPaymentProcessedView"]
+- !private ["So16UIStateRestoringP", "notificationCenter"]
+- !private ["So16UIStateRestoringP", "performSegue"]
+- !private ["So16UIStateRestoringP", "pmAmountTF"]
+- !private ["So16UIStateRestoringP", "setupView"]
+- !private ["So16UIStateRestoringP", "showPaymentProcessed"]
+- !private ["So16UIStateRestoringP", "showToastMSG"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So17UIStoryboardSegueC", "destination"]
+- !private ["So17UIStoryboardSegueC", "identifier"]
+- !private ["So15UITextDraggableP", "text"]
+- !private ["So15UITextDroppableP", "text"]
+- !private ["So11UITextFieldC", "text"]
+- !private ["So11UITextInputP", "text"]
+- !private ["So17UITextInputTraitsP", "text"]
+- !private ["So34UITextPasteConfigurationSupportingP", "text"]
+- !private ["So18UITraitEnvironmentP", "Double"]
+- ["So18UITraitEnvironmentP", "PMPresenter"]
+- !private ["So18UITraitEnvironmentP", "PaymentProcessedView"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addSubview"]
+- !private ["So18UITraitEnvironmentP", "buildNavigationBar"]
+- !private ["So18UITraitEnvironmentP", "center"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "instanceFromNib"]
+- !private ["So18UITraitEnvironmentP", "mainPMPresenter"]
+- !private ["So18UITraitEnvironmentP", "mainPaymentProcessedView"]
+- !private ["So18UITraitEnvironmentP", "notificationCenter"]
+- !private ["So18UITraitEnvironmentP", "performSegue"]
+- !private ["So18UITraitEnvironmentP", "pmAmountTF"]
+- !private ["So18UITraitEnvironmentP", "presentView"]
+- !private ["So18UITraitEnvironmentP", "setupView"]
+- !private ["So18UITraitEnvironmentP", "showPaymentProcessed"]
+- !private ["So18UITraitEnvironmentP", "showToastMSG"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So6UIViewC", "addSubview"]
+- !private ["So6UIViewC", "center"]
+- !private ["So6UIViewC", "instanceFromNib"]
+- !private ["So6UIViewC", "mainPMPresenter"]
+- !private ["So6UIViewC", "presentView"]
+- !private ["So6UIViewC", "setupView"]
+- !private ["So6UIViewC", "text"]
+- ["So16UIViewControllerC", "Bool"]
+- !private ["So16UIViewControllerC", "Double"]
+- ["So16UIViewControllerC", "PMPresenter"]
+- !private ["So16UIViewControllerC", "PaymentMethodsVC"]
+- ["So16UIViewControllerC", "PaymentProcessedView"]
+- ["So16UIViewControllerC", "UIStoryboardSegue"]
+- ["So16UIViewControllerC", "UITextField"]
+- !private ["So16UIViewControllerC", "buildNavigationBar"]
+- ["So16UIViewControllerC", "continueActButton"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "mainPMPresenter"]
+- ["So16UIViewControllerC", "mainPaymentProcessedView"]
+- !private ["So16UIViewControllerC", "notificationCenter"]
+- !private ["So16UIViewControllerC", "performSegue"]
+- ["So16UIViewControllerC", "pmAmountTF"]
+- ["So16UIViewControllerC", "prepare"]
+- ["So16UIViewControllerC", "setupView"]
+- ["So16UIViewControllerC", "showPaymentProcessed"]
+- !private ["So16UIViewControllerC", "showToastMSG"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewDidAppear"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addSubview"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "center"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "instanceFromNib"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "mainPMPresenter"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "presentView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setupView"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Double"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "PMPresenter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PaymentProcessedView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addObserver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "buildNavigationBar"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "center"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "destination"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "identifier"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instanceFromNib"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mainPMPresenter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mainPaymentProcessedView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "notificationCenter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "performSegue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pmAmountTF"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "presentView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "showPaymentProcessed"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "showToastMSG"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "updateAmountOnPayment"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "showPaymentProcessed"]
+- !private ["s20_SwiftNewtypeWrapperP", "showPaymentProcessed"]
+- !private ["s16_SwiftStringViewP", "init"]
+- ["5PayMe10mainBaseVCC", "Bool"]
+- !private ["5PayMe10mainBaseVCC", "Double"]
+- ["5PayMe10mainBaseVCC", "PMPresenter"]
+- !private ["5PayMe10mainBaseVCC", "PaymentMethodsVC"]
+- ["5PayMe10mainBaseVCC", "PaymentProcessedView"]
+- ["5PayMe10mainBaseVCC", "UIStoryboardSegue"]
+- ["5PayMe10mainBaseVCC", "UITextField"]
+- ["5PayMe10mainBaseVCC", ""]
+- !private ["5PayMe10mainBaseVCC", "buildNavigationBar"]
+- ["5PayMe10mainBaseVCC", "continueActButton"]
+- ["5PayMe10mainBaseVCC", "init"]
+- ["5PayMe10mainBaseVCC", "mainPMPresenter"]
+- ["5PayMe10mainBaseVCC", "mainPaymentProcessedView"]
+- !private ["5PayMe10mainBaseVCC", "notificationCenter"]
+- !private ["5PayMe10mainBaseVCC", "performSegue"]
+- ["5PayMe10mainBaseVCC", "pmAmountTF"]
+- ["5PayMe10mainBaseVCC", "prepare"]
+- ["5PayMe10mainBaseVCC", "setupView"]
+- ["5PayMe10mainBaseVCC", "showPaymentProcessed"]
+- !private ["5PayMe10mainBaseVCC", "showToastMSG"]
+- !private ["5PayMe10mainBaseVCC", "view"]
+- ["5PayMe10mainBaseVCC", "viewDidAppear"]
+- ["5PayMe10mainBaseVCC", "viewDidLoad"]
+depends-nominal:
+- !private "8DropDown10AnchorViewP"
+- !private "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "Sd"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s13FloatingPointP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSNotificationC4NameV"
+- !private "So18NotificationCenterC"
+- !private "s7NumericP"
+- !private "Sq"
+- "5PayMe11PMPresenterC"
+- "5PayMe15PaymentAmountVCC"
+- !private "5PayMe16PaymentMethodsVCC"
+- !private "5PayMe20PaymentProcessedViewC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So26UICollectionViewDataSourceP"
+- !private "So24UICollectionViewDelegateP"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So10UIKeyInputP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So20UIScrollViewDelegateP"
+- "So16UIStateRestoringP"
+- !private "So17UIStoryboardSegueC"
+- !private "So15UITextDraggableP"
+- !private "So15UITextDroppableP"
+- !private "So11UITextFieldC"
+- !private "So11UITextInputP"
+- !private "So17UITextInputTraitsP"
+- !private "So34UITextPasteConfigurationSupportingP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "9Alamofire14URLConvertibleP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+- !private "s16_SwiftStringViewP"
+- "5PayMe10mainBaseVCC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/DropDown/DropDown.framework/Modules/DropDown.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/Gloss/Gloss.framework/Modules/Gloss.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/SwiftToast/SwiftToast.framework/Modules/SwiftToast.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Modules/NVActivityIndicatorView.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/SCLAlertView/SCLAlertView.framework/Modules/SCLAlertView.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/DropDown/DropDown.framework/Headers/DropDown-umbrella.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/Gloss/Gloss.framework/Headers/Gloss-umbrella.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/SwiftToast/SwiftToast.framework/Headers/SwiftToast-umbrella.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Headers/NVActivityIndicatorView-umbrella.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/SCLAlertView/SCLAlertView.framework/Headers/SCLAlertView-umbrella.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/DropDown/DropDown.framework/Headers/DropDown-Swift.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/Gloss/Gloss.framework/Headers/Gloss-Swift.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/SwiftToast/SwiftToast.framework/Headers/SwiftToast-Swift.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Headers/NVActivityIndicatorView-Swift.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/SCLAlertView/SCLAlertView.framework/Headers/SCLAlertView-Swift.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/DropDown/DropDown.framework/Modules/module.modulemap"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/Gloss/Gloss.framework/Modules/module.modulemap"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/SwiftToast/SwiftToast.framework/Modules/module.modulemap"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Modules/module.modulemap"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/SCLAlertView/SCLAlertView.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "0fbc879ea410c82c4dee7fabe728542c"

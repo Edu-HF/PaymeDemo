@@ -1,0 +1,740 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SwiftToastDelegate"
+- "SwiftToastStyle"
+- "SwiftToastProtocol"
+- "SwiftToast"
+- "SwiftToastController"
+provides-nominal:
+- "10SwiftToast0aB8DelegateP"
+- "10SwiftToast0aB5StyleO"
+- "10SwiftToast0aB8ProtocolP"
+- "10SwiftToastAAC"
+- "10SwiftToast0aB10ControllerC"
+provides-member:
+- ["10SwiftToast0aB8DelegateP", ""]
+- ["10SwiftToast0aB5StyleO", ""]
+- ["10SwiftToast0aB8ProtocolP", ""]
+- ["10SwiftToastAAC", ""]
+- ["10SwiftToast0aB10ControllerC", ""]
+- ["10SwiftToast0aB8DelegateP", "swiftToastDidTouchUpInside"]
+- ["10SwiftToast0aB8DelegateP", "swiftToast"]
+- ["10SwiftToast0aB8DelegateP", "swiftToastDismissed"]
+provides-dynamic-lookup:
+- "hideTimerSelector"
+- "toastViewButtonTouchUpInside"
+depends-top-level:
+- !private "+"
+- !private "-"
+- "=="
+- !private "??"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CGFloat"
+- "CastingPrecedence"
+- "Double"
+- "NSLayoutConstraint"
+- "NSTextAlignment"
+- "String"
+- !private "StringLiteralType"
+- "SwiftToast"
+- "SwiftToastController"
+- "SwiftToastDelegate"
+- "SwiftToastProtocol"
+- "SwiftToastStyle"
+- !private "SwiftToastView"
+- "SwiftToastViewProtocol"
+- "TernaryPrecedence"
+- "Timer"
+- "UIApplication"
+- "UIColor"
+- "UIFont"
+- "UIGestureRecognizer"
+- "UIImage"
+- "UIStatusBarStyle"
+- !private "UITapGestureRecognizer"
+- !private "UIView"
+- !private "UIWindowLevelNormal"
+- !private "UIWindowLevelStatusBar"
+- "Void"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "addConstraints"]
+- !private ["So15CALayerDelegateP", "addGestureRecognizer"]
+- !private ["So15CALayerDelegateP", "addSubview"]
+- !private ["So15CALayerDelegateP", "animate"]
+- !private ["So15CALayerDelegateP", "frame"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "layoutIfNeeded"]
+- !private ["So15CALayerDelegateP", "removeFromSuperview"]
+- !private ["So15CALayerDelegateP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So15CALayerDelegateP", "windowLevel"]
+- !private ["SC6CGRectV", "size"]
+- !private ["SC6CGSizeV", "height"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addConstraints"]
+- !private ["s7CVarArgP", "addGestureRecognizer"]
+- !private ["s7CVarArgP", "addSubview"]
+- !private ["s7CVarArgP", "animate"]
+- !private ["s7CVarArgP", "boldSystemFont"]
+- !private ["s7CVarArgP", "constant"]
+- !private ["s7CVarArgP", "frame"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "invalidate"]
+- !private ["s7CVarArgP", "keyWindow"]
+- !private ["s7CVarArgP", "layoutIfNeeded"]
+- !private ["s7CVarArgP", "red"]
+- !private ["s7CVarArgP", "removeFromSuperview"]
+- !private ["s7CVarArgP", "scheduledTimer"]
+- ["s7CVarArgP", "shared"]
+- ["s7CVarArgP", "statusBarStyle"]
+- !private ["s7CVarArgP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s7CVarArgP", "userInfo"]
+- !private ["s7CVarArgP", "white"]
+- !private ["s7CVarArgP", "windowLevel"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "addConstraints"]
+- !private ["s28CustomDebugStringConvertibleP", "addGestureRecognizer"]
+- !private ["s28CustomDebugStringConvertibleP", "addSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "animate"]
+- !private ["s28CustomDebugStringConvertibleP", "boldSystemFont"]
+- !private ["s28CustomDebugStringConvertibleP", "constant"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "invalidate"]
+- !private ["s28CustomDebugStringConvertibleP", "keyWindow"]
+- !private ["s28CustomDebugStringConvertibleP", "layoutIfNeeded"]
+- !private ["s28CustomDebugStringConvertibleP", "red"]
+- !private ["s28CustomDebugStringConvertibleP", "removeFromSuperview"]
+- !private ["s28CustomDebugStringConvertibleP", "scheduledTimer"]
+- ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- ["s28CustomDebugStringConvertibleP", "statusBarStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s28CustomDebugStringConvertibleP", "userInfo"]
+- !private ["s28CustomDebugStringConvertibleP", "white"]
+- !private ["s28CustomDebugStringConvertibleP", "windowLevel"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "height"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "size"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "height"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "size"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addConstraints"]
+- !private ["s23CustomStringConvertibleP", "addGestureRecognizer"]
+- !private ["s23CustomStringConvertibleP", "addSubview"]
+- !private ["s23CustomStringConvertibleP", "animate"]
+- !private ["s23CustomStringConvertibleP", "boldSystemFont"]
+- !private ["s23CustomStringConvertibleP", "constant"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "invalidate"]
+- !private ["s23CustomStringConvertibleP", "keyWindow"]
+- !private ["s23CustomStringConvertibleP", "layoutIfNeeded"]
+- !private ["s23CustomStringConvertibleP", "red"]
+- !private ["s23CustomStringConvertibleP", "removeFromSuperview"]
+- !private ["s23CustomStringConvertibleP", "scheduledTimer"]
+- ["s23CustomStringConvertibleP", "shared"]
+- ["s23CustomStringConvertibleP", "statusBarStyle"]
+- !private ["s23CustomStringConvertibleP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s23CustomStringConvertibleP", "userInfo"]
+- !private ["s23CustomStringConvertibleP", "white"]
+- !private ["s23CustomStringConvertibleP", "windowLevel"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "height"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "size"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "height"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "size"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addConstraints"]
+- !private ["s9EquatableP", "addGestureRecognizer"]
+- !private ["s9EquatableP", "addSubview"]
+- !private ["s9EquatableP", "animate"]
+- ["s9EquatableP", "belowNavigationBar"]
+- !private ["s9EquatableP", "boldSystemFont"]
+- !private ["s9EquatableP", "bottom"]
+- ["s9EquatableP", "bottomToTop"]
+- !private ["s9EquatableP", "center"]
+- !private ["s9EquatableP", "constant"]
+- !private ["s9EquatableP", "curveEaseOut"]
+- !private ["s9EquatableP", "equal"]
+- !private ["s9EquatableP", "frame"]
+- !private ["s9EquatableP", "greaterThanOrEqual"]
+- ["s9EquatableP", "hashValue"]
+- !private ["s9EquatableP", "height"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "invalidate"]
+- !private ["s9EquatableP", "keyWindow"]
+- !private ["s9EquatableP", "layoutIfNeeded"]
+- !private ["s9EquatableP", "leading"]
+- !private ["s9EquatableP", "lessThanOrEqual"]
+- !private ["s9EquatableP", "lightContent"]
+- ["s9EquatableP", "navigationBar"]
+- !private ["s9EquatableP", "notAnAttribute"]
+- !private ["s9EquatableP", "red"]
+- !private ["s9EquatableP", "removeFromSuperview"]
+- !private ["s9EquatableP", "scheduledTimer"]
+- ["s9EquatableP", "shared"]
+- !private ["s9EquatableP", "size"]
+- ["s9EquatableP", "statusBar"]
+- ["s9EquatableP", "statusBarStyle"]
+- !private ["s9EquatableP", "top"]
+- !private ["s9EquatableP", "trailing"]
+- !private ["s9EquatableP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s9EquatableP", "userInfo"]
+- !private ["s9EquatableP", "white"]
+- !private ["s9EquatableP", "windowLevel"]
+- !private ["s25ExpressibleByArrayLiteralP", "curveEaseOut"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addConstraints"]
+- !private ["s8HashableP", "addGestureRecognizer"]
+- !private ["s8HashableP", "addSubview"]
+- !private ["s8HashableP", "animate"]
+- ["s8HashableP", "belowNavigationBar"]
+- !private ["s8HashableP", "boldSystemFont"]
+- !private ["s8HashableP", "bottom"]
+- ["s8HashableP", "bottomToTop"]
+- !private ["s8HashableP", "center"]
+- !private ["s8HashableP", "constant"]
+- !private ["s8HashableP", "equal"]
+- !private ["s8HashableP", "frame"]
+- !private ["s8HashableP", "greaterThanOrEqual"]
+- ["s8HashableP", "hashValue"]
+- !private ["s8HashableP", "height"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "invalidate"]
+- !private ["s8HashableP", "keyWindow"]
+- !private ["s8HashableP", "layoutIfNeeded"]
+- !private ["s8HashableP", "leading"]
+- !private ["s8HashableP", "lessThanOrEqual"]
+- !private ["s8HashableP", "lightContent"]
+- ["s8HashableP", "navigationBar"]
+- !private ["s8HashableP", "notAnAttribute"]
+- !private ["s8HashableP", "red"]
+- !private ["s8HashableP", "removeFromSuperview"]
+- !private ["s8HashableP", "scheduledTimer"]
+- ["s8HashableP", "shared"]
+- ["s8HashableP", "statusBar"]
+- ["s8HashableP", "statusBarStyle"]
+- !private ["s8HashableP", "top"]
+- !private ["s8HashableP", "trailing"]
+- !private ["s8HashableP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s8HashableP", "userInfo"]
+- !private ["s8HashableP", "white"]
+- !private ["s8HashableP", "windowLevel"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "addConstraints"]
+- !private ["So8NSCodingP", "addGestureRecognizer"]
+- !private ["So8NSCodingP", "addSubview"]
+- !private ["So8NSCodingP", "animate"]
+- !private ["So8NSCodingP", "frame"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "layoutIfNeeded"]
+- !private ["So8NSCodingP", "red"]
+- !private ["So8NSCodingP", "removeFromSuperview"]
+- !private ["So8NSCodingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So8NSCodingP", "white"]
+- !private ["So8NSCodingP", "windowLevel"]
+- !private ["So9NSCopyingP", "boldSystemFont"]
+- !private ["So9NSCopyingP", "red"]
+- !private ["So9NSCopyingP", "white"]
+- !private ["So21NSItemProviderReadingP", "red"]
+- !private ["So21NSItemProviderReadingP", "white"]
+- !private ["So21NSItemProviderWritingP", "red"]
+- !private ["So21NSItemProviderWritingP", "white"]
+- !private ["SC17NSLayoutAttributeO", "bottom"]
+- !private ["SC17NSLayoutAttributeO", "height"]
+- !private ["SC17NSLayoutAttributeO", "leading"]
+- !private ["SC17NSLayoutAttributeO", "notAnAttribute"]
+- !private ["SC17NSLayoutAttributeO", "top"]
+- !private ["SC17NSLayoutAttributeO", "trailing"]
+- !private ["So18NSLayoutConstraintC", "constant"]
+- !private ["So18NSLayoutConstraintC", "init"]
+- !private ["SC16NSLayoutRelationO", "equal"]
+- !private ["SC16NSLayoutRelationO", "greaterThanOrEqual"]
+- !private ["SC16NSLayoutRelationO", "lessThanOrEqual"]
+- !private ["So8NSObjectC", "addConstraints"]
+- !private ["So8NSObjectC", "addGestureRecognizer"]
+- !private ["So8NSObjectC", "addSubview"]
+- !private ["So8NSObjectC", "animate"]
+- !private ["So8NSObjectC", "boldSystemFont"]
+- !private ["So8NSObjectC", "constant"]
+- !private ["So8NSObjectC", "frame"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "invalidate"]
+- !private ["So8NSObjectC", "keyWindow"]
+- !private ["So8NSObjectC", "layoutIfNeeded"]
+- !private ["So8NSObjectC", "red"]
+- !private ["So8NSObjectC", "removeFromSuperview"]
+- !private ["So8NSObjectC", "scheduledTimer"]
+- ["So8NSObjectC", "shared"]
+- ["So8NSObjectC", "statusBarStyle"]
+- !private ["So8NSObjectC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So8NSObjectC", "userInfo"]
+- !private ["So8NSObjectC", "white"]
+- !private ["So8NSObjectC", "windowLevel"]
+- !private ["So16NSObjectProtocolP", "addConstraints"]
+- !private ["So16NSObjectProtocolP", "addGestureRecognizer"]
+- !private ["So16NSObjectProtocolP", "addSubview"]
+- !private ["So16NSObjectProtocolP", "animate"]
+- !private ["So16NSObjectProtocolP", "boldSystemFont"]
+- !private ["So16NSObjectProtocolP", "constant"]
+- !private ["So16NSObjectProtocolP", "frame"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "invalidate"]
+- !private ["So16NSObjectProtocolP", "keyWindow"]
+- !private ["So16NSObjectProtocolP", "layoutIfNeeded"]
+- !private ["So16NSObjectProtocolP", "red"]
+- !private ["So16NSObjectProtocolP", "removeFromSuperview"]
+- !private ["So16NSObjectProtocolP", "scheduledTimer"]
+- ["So16NSObjectProtocolP", "shared"]
+- ["So16NSObjectProtocolP", "statusBarStyle"]
+- !private ["So16NSObjectProtocolP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So16NSObjectProtocolP", "userInfo"]
+- !private ["So16NSObjectProtocolP", "white"]
+- !private ["So16NSObjectProtocolP", "windowLevel"]
+- !private ["So14NSSecureCodingP", "red"]
+- !private ["So14NSSecureCodingP", "white"]
+- !private ["SC15NSTextAlignmentO", "center"]
+- !private ["s9OptionSetP", "curveEaseOut"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "bottom"]
+- !private ["s16RawRepresentableP", "center"]
+- !private ["s16RawRepresentableP", "curveEaseOut"]
+- !private ["s16RawRepresentableP", "equal"]
+- !private ["s16RawRepresentableP", "greaterThanOrEqual"]
+- !private ["s16RawRepresentableP", "height"]
+- !private ["s16RawRepresentableP", "leading"]
+- !private ["s16RawRepresentableP", "lessThanOrEqual"]
+- !private ["s16RawRepresentableP", "lightContent"]
+- !private ["s16RawRepresentableP", "notAnAttribute"]
+- !private ["s16RawRepresentableP", "top"]
+- !private ["s16RawRepresentableP", "trailing"]
+- !private ["s8SequenceP", "init"]
+- !private ["s10SetAlgebraP", "curveEaseOut"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- ["10SwiftToastAAC", "Bool"]
+- ["10SwiftToastAAC", "CGFloat"]
+- ["10SwiftToastAAC", "Double"]
+- ["10SwiftToastAAC", "NSTextAlignment"]
+- ["10SwiftToastAAC", "String"]
+- ["10SwiftToastAAC", "SwiftToast"]
+- ["10SwiftToastAAC", "SwiftToastDelegate"]
+- ["10SwiftToastAAC", "SwiftToastStyle"]
+- ["10SwiftToastAAC", "UIColor"]
+- ["10SwiftToastAAC", "UIFont"]
+- ["10SwiftToastAAC", "UIImage"]
+- ["10SwiftToastAAC", "UIStatusBarStyle"]
+- ["10SwiftToastAAC", "aboveStatusBar"]
+- ["10SwiftToastAAC", "backgroundColor"]
+- ["10SwiftToastAAC", "defaultValue"]
+- ["10SwiftToastAAC", "deinit"]
+- ["10SwiftToastAAC", "duration"]
+- ["10SwiftToastAAC", "font"]
+- ["10SwiftToastAAC", "image"]
+- ["10SwiftToastAAC", "init"]
+- ["10SwiftToastAAC", "isUserInteractionEnabled"]
+- ["10SwiftToastAAC", "minimumHeight"]
+- ["10SwiftToastAAC", "statusBarStyle"]
+- ["10SwiftToastAAC", "style"]
+- ["10SwiftToastAAC", "target"]
+- ["10SwiftToastAAC", "text"]
+- ["10SwiftToastAAC", "textAlignment"]
+- ["10SwiftToastAAC", "textColor"]
+- ["10SwiftToast0aB10ControllerC", "Bool"]
+- ["10SwiftToast0aB10ControllerC", "NSLayoutConstraint"]
+- ["10SwiftToast0aB10ControllerC", "SwiftToast"]
+- ["10SwiftToast0aB10ControllerC", "SwiftToastController"]
+- ["10SwiftToast0aB10ControllerC", "SwiftToastDelegate"]
+- ["10SwiftToast0aB10ControllerC", "SwiftToastProtocol"]
+- !private ["10SwiftToast0aB10ControllerC", "SwiftToastView"]
+- ["10SwiftToast0aB10ControllerC", "SwiftToastViewProtocol"]
+- ["10SwiftToast0aB10ControllerC", "Timer"]
+- ["10SwiftToast0aB10ControllerC", "UIApplication"]
+- ["10SwiftToast0aB10ControllerC", "UIGestureRecognizer"]
+- ["10SwiftToast0aB10ControllerC", "UIStatusBarStyle"]
+- !private ["10SwiftToast0aB10ControllerC", "UITapGestureRecognizer"]
+- !private ["10SwiftToast0aB10ControllerC", "UIView"]
+- !private ["10SwiftToast0aB10ControllerC", "UIWindowLevelNormal"]
+- !private ["10SwiftToast0aB10ControllerC", "UIWindowLevelStatusBar"]
+- ["10SwiftToast0aB10ControllerC", "Void"]
+- ["10SwiftToast0aB10ControllerC", "applicationStatusBarStyle"]
+- ["10SwiftToast0aB10ControllerC", "configureConstraint"]
+- ["10SwiftToast0aB10ControllerC", "configureStatusBar"]
+- !private ["10SwiftToast0aB10ControllerC", "currentToast"]
+- ["10SwiftToast0aB10ControllerC", "deinit"]
+- !private ["10SwiftToast0aB10ControllerC", "delegate"]
+- ["10SwiftToast0aB10ControllerC", "dismiss"]
+- !private ["10SwiftToast0aB10ControllerC", "hideTimer"]
+- ["10SwiftToast0aB10ControllerC", "hideTimerSelector"]
+- ["10SwiftToast0aB10ControllerC", "init"]
+- ["10SwiftToast0aB10ControllerC", "present"]
+- !private ["10SwiftToast0aB10ControllerC", "setupToastView"]
+- ["10SwiftToast0aB10ControllerC", "shared"]
+- !private ["10SwiftToast0aB10ControllerC", "toastView"]
+- !private ["10SwiftToast0aB10ControllerC", "toastViewButtonTouchUpInside"]
+- !private ["10SwiftToast0aB10ControllerC", "toastViewHeightConstraint"]
+- !private ["10SwiftToast0aB10ControllerC", "topConstraint"]
+- ["10SwiftToast0aB8DelegateP", "CGFloat"]
+- ["10SwiftToast0aB8DelegateP", "SwiftToastProtocol"]
+- ["10SwiftToast0aB8DelegateP", "swiftToast"]
+- ["10SwiftToast0aB8DelegateP", "swiftToastDidTouchUpInside"]
+- ["10SwiftToast0aB8DelegateP", "swiftToastDismissed"]
+- ["10SwiftToast0aB8ProtocolP", "Bool"]
+- ["10SwiftToast0aB8ProtocolP", "CGFloat"]
+- ["10SwiftToast0aB8ProtocolP", "Double"]
+- ["10SwiftToast0aB8ProtocolP", "SwiftToast"]
+- ["10SwiftToast0aB8ProtocolP", "SwiftToastDelegate"]
+- ["10SwiftToast0aB8ProtocolP", "SwiftToastStyle"]
+- ["10SwiftToast0aB8ProtocolP", "UIStatusBarStyle"]
+- ["10SwiftToast0aB8ProtocolP", ""]
+- ["10SwiftToast0aB8ProtocolP", "aboveStatusBar"]
+- !private ["10SwiftToast0aB8ProtocolP", "backgroundColor"]
+- !private ["10SwiftToast0aB8ProtocolP", "defaultValue"]
+- ["10SwiftToast0aB8ProtocolP", "duration"]
+- !private ["10SwiftToast0aB8ProtocolP", "font"]
+- !private ["10SwiftToast0aB8ProtocolP", "image"]
+- ["10SwiftToast0aB8ProtocolP", "init"]
+- ["10SwiftToast0aB8ProtocolP", "isUserInteractionEnabled"]
+- ["10SwiftToast0aB8ProtocolP", "minimumHeight"]
+- ["10SwiftToast0aB8ProtocolP", "statusBarStyle"]
+- ["10SwiftToast0aB8ProtocolP", "style"]
+- ["10SwiftToast0aB8ProtocolP", "target"]
+- !private ["10SwiftToast0aB8ProtocolP", "text"]
+- !private ["10SwiftToast0aB8ProtocolP", "textAlignment"]
+- !private ["10SwiftToast0aB8ProtocolP", "textColor"]
+- ["10SwiftToast0aB5StyleO", "__derived_enum_equals"]
+- ["10SwiftToast0aB5StyleO", "belowNavigationBar"]
+- ["10SwiftToast0aB5StyleO", "bottomToTop"]
+- ["10SwiftToast0aB5StyleO", "deinit"]
+- ["10SwiftToast0aB5StyleO", "hashValue"]
+- ["10SwiftToast0aB5StyleO", "navigationBar"]
+- ["10SwiftToast0aB5StyleO", "statusBar"]
+- !private ["10SwiftToast0aB4ViewC", "deinit"]
+- !private ["10SwiftToast0aB4ViewC", "init"]
+- !private ["10SwiftToast0aB12ViewProtocolP", "configure"]
+- !private ["10SwiftToast0aB12ViewProtocolP", "init"]
+- !private ["10SwiftToast0aB12ViewProtocolP", "nib"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["So5TimerC", "init"]
+- !private ["So5TimerC", "invalidate"]
+- !private ["So5TimerC", "scheduledTimer"]
+- !private ["So5TimerC", "userInfo"]
+- !private ["So29UIAccessibilityIdentificationP", "addConstraints"]
+- !private ["So29UIAccessibilityIdentificationP", "addGestureRecognizer"]
+- !private ["So29UIAccessibilityIdentificationP", "addSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "animate"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "layoutIfNeeded"]
+- !private ["So29UIAccessibilityIdentificationP", "removeFromSuperview"]
+- !private ["So29UIAccessibilityIdentificationP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So29UIAccessibilityIdentificationP", "windowLevel"]
+- !private ["So12UIAppearanceP", "addConstraints"]
+- !private ["So12UIAppearanceP", "addGestureRecognizer"]
+- !private ["So12UIAppearanceP", "addSubview"]
+- !private ["So12UIAppearanceP", "animate"]
+- !private ["So12UIAppearanceP", "frame"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "layoutIfNeeded"]
+- !private ["So12UIAppearanceP", "removeFromSuperview"]
+- !private ["So12UIAppearanceP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So12UIAppearanceP", "windowLevel"]
+- !private ["So21UIAppearanceContainerP", "addConstraints"]
+- !private ["So21UIAppearanceContainerP", "addGestureRecognizer"]
+- !private ["So21UIAppearanceContainerP", "addSubview"]
+- !private ["So21UIAppearanceContainerP", "animate"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "layoutIfNeeded"]
+- !private ["So21UIAppearanceContainerP", "removeFromSuperview"]
+- !private ["So21UIAppearanceContainerP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So21UIAppearanceContainerP", "windowLevel"]
+- !private ["So13UIApplicationC", "keyWindow"]
+- ["So13UIApplicationC", "shared"]
+- ["So13UIApplicationC", "statusBarStyle"]
+- !private ["So7UIColorC", "red"]
+- !private ["So7UIColorC", "white"]
+- !private ["So17UICoordinateSpaceP", "addConstraints"]
+- !private ["So17UICoordinateSpaceP", "addGestureRecognizer"]
+- !private ["So17UICoordinateSpaceP", "addSubview"]
+- !private ["So17UICoordinateSpaceP", "animate"]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "layoutIfNeeded"]
+- !private ["So17UICoordinateSpaceP", "removeFromSuperview"]
+- !private ["So17UICoordinateSpaceP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So17UICoordinateSpaceP", "windowLevel"]
+- !private ["So13UIDynamicItemP", "addConstraints"]
+- !private ["So13UIDynamicItemP", "addGestureRecognizer"]
+- !private ["So13UIDynamicItemP", "addSubview"]
+- !private ["So13UIDynamicItemP", "animate"]
+- !private ["So13UIDynamicItemP", "frame"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "layoutIfNeeded"]
+- !private ["So13UIDynamicItemP", "removeFromSuperview"]
+- !private ["So13UIDynamicItemP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So13UIDynamicItemP", "windowLevel"]
+- !private ["So18UIFocusEnvironmentP", "addConstraints"]
+- !private ["So18UIFocusEnvironmentP", "addGestureRecognizer"]
+- !private ["So18UIFocusEnvironmentP", "addSubview"]
+- !private ["So18UIFocusEnvironmentP", "animate"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "layoutIfNeeded"]
+- !private ["So18UIFocusEnvironmentP", "removeFromSuperview"]
+- !private ["So18UIFocusEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So18UIFocusEnvironmentP", "windowLevel"]
+- !private ["So11UIFocusItemP", "addConstraints"]
+- !private ["So11UIFocusItemP", "addGestureRecognizer"]
+- !private ["So11UIFocusItemP", "addSubview"]
+- !private ["So11UIFocusItemP", "animate"]
+- !private ["So11UIFocusItemP", "frame"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "layoutIfNeeded"]
+- !private ["So11UIFocusItemP", "removeFromSuperview"]
+- !private ["So11UIFocusItemP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So11UIFocusItemP", "windowLevel"]
+- !private ["So6UIFontC", "boldSystemFont"]
+- !private ["So19UIGestureRecognizerC", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "addConstraints"]
+- !private ["So30UIPasteConfigurationSupportingP", "addGestureRecognizer"]
+- !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "animate"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "keyWindow"]
+- !private ["So30UIPasteConfigurationSupportingP", "layoutIfNeeded"]
+- !private ["So30UIPasteConfigurationSupportingP", "removeFromSuperview"]
+- ["So30UIPasteConfigurationSupportingP", "shared"]
+- ["So30UIPasteConfigurationSupportingP", "statusBarStyle"]
+- !private ["So30UIPasteConfigurationSupportingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So30UIPasteConfigurationSupportingP", "windowLevel"]
+- !private ["So11UIResponderC", "addConstraints"]
+- !private ["So11UIResponderC", "addGestureRecognizer"]
+- !private ["So11UIResponderC", "addSubview"]
+- !private ["So11UIResponderC", "animate"]
+- !private ["So11UIResponderC", "frame"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "keyWindow"]
+- !private ["So11UIResponderC", "layoutIfNeeded"]
+- !private ["So11UIResponderC", "removeFromSuperview"]
+- ["So11UIResponderC", "shared"]
+- ["So11UIResponderC", "statusBarStyle"]
+- !private ["So11UIResponderC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So11UIResponderC", "windowLevel"]
+- !private ["So30UIResponderStandardEditActionsP", "addConstraints"]
+- !private ["So30UIResponderStandardEditActionsP", "addGestureRecognizer"]
+- !private ["So30UIResponderStandardEditActionsP", "addSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "animate"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "keyWindow"]
+- !private ["So30UIResponderStandardEditActionsP", "layoutIfNeeded"]
+- !private ["So30UIResponderStandardEditActionsP", "removeFromSuperview"]
+- ["So30UIResponderStandardEditActionsP", "shared"]
+- ["So30UIResponderStandardEditActionsP", "statusBarStyle"]
+- !private ["So30UIResponderStandardEditActionsP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So30UIResponderStandardEditActionsP", "windowLevel"]
+- !private ["SC16UIStatusBarStyleO", "lightContent"]
+- !private ["So22UITapGestureRecognizerC", "init"]
+- !private ["So18UITraitEnvironmentP", "addConstraints"]
+- !private ["So18UITraitEnvironmentP", "addGestureRecognizer"]
+- !private ["So18UITraitEnvironmentP", "addSubview"]
+- !private ["So18UITraitEnvironmentP", "animate"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "layoutIfNeeded"]
+- !private ["So18UITraitEnvironmentP", "removeFromSuperview"]
+- !private ["So18UITraitEnvironmentP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So18UITraitEnvironmentP", "windowLevel"]
+- !private ["So6UIViewC", "addConstraints"]
+- !private ["So6UIViewC", "addGestureRecognizer"]
+- !private ["So6UIViewC", "addSubview"]
+- !private ["So6UIViewC", "animate"]
+- !private ["So6UIViewC", "frame"]
+- !private ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "layoutIfNeeded"]
+- !private ["So6UIViewC", "removeFromSuperview"]
+- !private ["So6UIViewC", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["So6UIViewC", "windowLevel"]
+- !private ["SC22UIViewAnimationOptionsV", "curveEaseOut"]
+- !private ["So8UIWindowC", "addConstraints"]
+- !private ["So8UIWindowC", "addSubview"]
+- !private ["So8UIWindowC", "layoutIfNeeded"]
+- !private ["So8UIWindowC", "windowLevel"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addConstraints"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addGestureRecognizer"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addSubview"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "animate"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "frame"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "layoutIfNeeded"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "removeFromSuperview"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "windowLevel"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "red"]
+- !private ["s26_ExpressibleByColorLiteralP", "white"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addConstraints"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addGestureRecognizer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "animate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "boldSystemFont"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "constant"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "invalidate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "keyWindow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layoutIfNeeded"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "red"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeFromSuperview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scheduledTimer"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "statusBarStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userInfo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "white"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "windowLevel"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "size"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- !private "SC6CGRectV"
+- !private "SC6CGSizeV"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "SC17NSLayoutAttributeO"
+- !private "So18NSLayoutConstraintC"
+- !private "SC16NSLayoutRelationO"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "SC15NSTextAlignmentO"
+- !private "s9OptionSetP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "s10SetAlgebraP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- "10SwiftToastAAC"
+- "10SwiftToast0aB10ControllerC"
+- "10SwiftToast0aB8DelegateP"
+- "10SwiftToast0aB8ProtocolP"
+- "10SwiftToast0aB5StyleO"
+- !private "10SwiftToast0aB4ViewC"
+- !private "10SwiftToast0aB12ViewProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "So5TimerC"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- "So13UIApplicationC"
+- !private "So7UIColorC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So6UIFontC"
+- !private "So19UIGestureRecognizerC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "SC16UIStatusBarStyleO"
+- !private "So22UITapGestureRecognizerC"
+- !private "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- !private "SC22UIViewAnimationOptionsV"
+- !private "So8UIWindowC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/Pods/Target Support Files/SwiftToast/SwiftToast-umbrella.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SwiftToast.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "1f4baf5414fa54f523675200d40b5466"

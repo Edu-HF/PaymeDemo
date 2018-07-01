@@ -1,0 +1,11 @@
+version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
+options: "5303dd797a193c3b625922e775453dd5"
+build_time: [1529887371, 515565000]
+inputs:
+  "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/Pods/Gloss/Sources/Decoder.swift": [1529887239, 0]
+  "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/Pods/Gloss/Sources/Encoder.swift": [1529887239, 0]
+  "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/Pods/Gloss/Sources/ExtensionArray.swift": [1529887239, 0]
+  "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/Pods/Gloss/Sources/ExtensionDecodable.swift": [1529887239, 0]
+  "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/Pods/Gloss/Sources/ExtensionDictionary.swift": [1529887239, 0]
+  "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/Pods/Gloss/Sources/Gloss.swift": [1529887239, 0]
+  "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/Pods/Gloss/Sources/Operators.swift": [1529887239, 0]

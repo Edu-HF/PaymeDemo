@@ -1,0 +1,158 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "present"]
+- ["So16UIViewControllerC", "present"]
+- ["So16UIViewControllerC", "dismissSwiftToast"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Bool"
+- !private "SwiftToastController"
+- "SwiftToastProtocol"
+- !private "SwiftToastView"
+- "SwiftToastViewProtocol"
+- "UIViewController"
+depends-member:
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["s7CVarArgP", "SwiftToastController"]
+- !private ["s7CVarArgP", "SwiftToastView"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "SwiftToastController"]
+- !private ["s28CustomDebugStringConvertibleP", "SwiftToastView"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "SwiftToastController"]
+- !private ["s23CustomStringConvertibleP", "SwiftToastView"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s9EquatableP", "SwiftToastController"]
+- !private ["s9EquatableP", "SwiftToastView"]
+- !private ["s9EquatableP", "init"]
+- !private ["s8HashableP", "SwiftToastController"]
+- !private ["s8HashableP", "SwiftToastView"]
+- !private ["s8HashableP", "init"]
+- !private ["So8NSCodingP", "SwiftToastController"]
+- !private ["So8NSCodingP", "SwiftToastView"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "SwiftToastController"]
+- !private ["So26NSExtensionRequestHandlingP", "SwiftToastView"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "SwiftToastController"]
+- ["So8NSObjectC", "SwiftToastProtocol"]
+- !private ["So8NSObjectC", "SwiftToastView"]
+- ["So8NSObjectC", "SwiftToastViewProtocol"]
+- ["So8NSObjectC", "dismissSwiftToast"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "present"]
+- !private ["So16NSObjectProtocolP", "SwiftToastController"]
+- !private ["So16NSObjectProtocolP", "SwiftToastView"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["10SwiftToast0aB10ControllerC", "dismiss"]
+- !private ["10SwiftToast0aB10ControllerC", "present"]
+- !private ["10SwiftToast0aB10ControllerC", "shared"]
+- !private ["10SwiftToast0aB4ViewC", "deinit"]
+- !private ["10SwiftToast0aB4ViewC", "init"]
+- !private ["10SwiftToast0aB12ViewProtocolP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So21UIAppearanceContainerP", "SwiftToastController"]
+- !private ["So21UIAppearanceContainerP", "SwiftToastView"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So18UIContentContainerP", "SwiftToastController"]
+- !private ["So18UIContentContainerP", "SwiftToastView"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So18UIFocusEnvironmentP", "SwiftToastController"]
+- !private ["So18UIFocusEnvironmentP", "SwiftToastView"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "SwiftToastController"]
+- !private ["So30UIPasteConfigurationSupportingP", "SwiftToastView"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "SwiftToastController"]
+- ["So11UIResponderC", "SwiftToastProtocol"]
+- !private ["So11UIResponderC", "SwiftToastView"]
+- ["So11UIResponderC", "SwiftToastViewProtocol"]
+- ["So11UIResponderC", "dismissSwiftToast"]
+- !private ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "present"]
+- !private ["So30UIResponderStandardEditActionsP", "SwiftToastController"]
+- !private ["So30UIResponderStandardEditActionsP", "SwiftToastView"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So16UIStateRestoringP", "SwiftToastController"]
+- !private ["So16UIStateRestoringP", "SwiftToastView"]
+- !private ["So18UITraitEnvironmentP", "SwiftToastController"]
+- !private ["So18UITraitEnvironmentP", "SwiftToastView"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So6UIViewC", "init"]
+- ["So16UIViewControllerC", "Bool"]
+- !private ["So16UIViewControllerC", "SwiftToastController"]
+- ["So16UIViewControllerC", "SwiftToastProtocol"]
+- !private ["So16UIViewControllerC", "SwiftToastView"]
+- ["So16UIViewControllerC", "SwiftToastViewProtocol"]
+- ["So16UIViewControllerC", "dismissSwiftToast"]
+- ["So16UIViewControllerC", "present"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SwiftToastController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SwiftToastView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+depends-nominal:
+- !private "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9EquatableP"
+- !private "s8HashableP"
+- !private "So8NSCodingP"
+- !private "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "10SwiftToast0aB10ControllerC"
+- !private "10SwiftToast0aB4ViewC"
+- !private "10SwiftToast0aB12ViewProtocolP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So16UIStateRestoringP"
+- !private "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/Pods/Target Support Files/SwiftToast/SwiftToast-umbrella.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SwiftToast.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "a91dc1e0fcf5d113f3f03e3904950847"

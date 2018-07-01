@@ -1,0 +1,221 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HttpConnection"
+provides-nominal:
+- "5PayMe14HttpConnectionC"
+provides-member:
+- ["5PayMe14HttpConnectionC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "Alamofire"
+- "AnyObject"
+- !private "CastingPrecedence"
+- "HTTPMethod"
+- "HttpConnection"
+- "HttpConnectionProtocol"
+- "NSObject"
+- "ServerTrustPolicy"
+- "SessionManager"
+- "String"
+- "Void"
+- !private "debugPrint"
+depends-member:
+- !private ["s7CVarArgP", "Alamofire"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "debugPrint"]
+- ["s7CVarArgP", "delete"]
+- ["s7CVarArgP", "get"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "post"]
+- ["s7CVarArgP", "put"]
+- !private ["s7CVarArgP", "request"]
+- !private ["s28CustomDebugStringConvertibleP", "Alamofire"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "debugPrint"]
+- ["s28CustomDebugStringConvertibleP", "delete"]
+- !private ["s28CustomDebugStringConvertibleP", "failure"]
+- ["s28CustomDebugStringConvertibleP", "get"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "post"]
+- ["s28CustomDebugStringConvertibleP", "put"]
+- !private ["s28CustomDebugStringConvertibleP", "request"]
+- !private ["s28CustomDebugStringConvertibleP", "responseJSON"]
+- !private ["s28CustomDebugStringConvertibleP", "result"]
+- !private ["s28CustomDebugStringConvertibleP", "success"]
+- !private ["s28CustomDebugStringConvertibleP", "validate"]
+- !private ["s23CustomStringConvertibleP", "Alamofire"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "debugPrint"]
+- ["s23CustomStringConvertibleP", "delete"]
+- !private ["s23CustomStringConvertibleP", "failure"]
+- ["s23CustomStringConvertibleP", "get"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "post"]
+- ["s23CustomStringConvertibleP", "put"]
+- !private ["s23CustomStringConvertibleP", "request"]
+- !private ["s23CustomStringConvertibleP", "responseJSON"]
+- !private ["s23CustomStringConvertibleP", "result"]
+- !private ["s23CustomStringConvertibleP", "success"]
+- !private ["s23CustomStringConvertibleP", "validate"]
+- !private ["9Alamofire11DataRequestC", "responseJSON"]
+- !private ["9Alamofire11DataRequestC", "validate"]
+- !private ["9Alamofire12DataResponseV", "request"]
+- !private ["9Alamofire12DataResponseV", "result"]
+- !private ["s9EquatableP", "Alamofire"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "debugPrint"]
+- ["s9EquatableP", "delete"]
+- ["s9EquatableP", "get"]
+- !private ["s9EquatableP", "init"]
+- ["s9EquatableP", "post"]
+- ["s9EquatableP", "put"]
+- !private ["s9EquatableP", "request"]
+- !private ["9Alamofire10HTTPMethodO", "delete"]
+- !private ["9Alamofire10HTTPMethodO", "get"]
+- !private ["9Alamofire10HTTPMethodO", "post"]
+- !private ["9Alamofire10HTTPMethodO", "put"]
+- !private ["s8HashableP", "Alamofire"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "debugPrint"]
+- ["s8HashableP", "delete"]
+- ["s8HashableP", "get"]
+- !private ["s8HashableP", "init"]
+- ["s8HashableP", "post"]
+- ["s8HashableP", "put"]
+- !private ["s8HashableP", "request"]
+- !private ["5PayMe14HttpConnectionC", "Alamofire"]
+- ["5PayMe14HttpConnectionC", "AnyObject"]
+- ["5PayMe14HttpConnectionC", "HTTPMethod"]
+- ["5PayMe14HttpConnectionC", "ServerTrustPolicy"]
+- ["5PayMe14HttpConnectionC", "SessionManager"]
+- ["5PayMe14HttpConnectionC", "String"]
+- ["5PayMe14HttpConnectionC", "Void"]
+- ["5PayMe14HttpConnectionC", "afManager"]
+- !private ["5PayMe14HttpConnectionC", "debugPrint"]
+- ["5PayMe14HttpConnectionC", "deinit"]
+- ["5PayMe14HttpConnectionC", "delete"]
+- ["5PayMe14HttpConnectionC", "get"]
+- ["5PayMe14HttpConnectionC", "init"]
+- ["5PayMe14HttpConnectionC", "post"]
+- ["5PayMe14HttpConnectionC", "put"]
+- ["5PayMe14HttpConnectionC", "request"]
+- ["5PayMe14HttpConnectionC", "serverTrustPolicies"]
+- ["5PayMe14HttpConnectionC", "serverTrustPolicy"]
+- !private ["5PayMe22HttpConnectionProtocolP", "Alamofire"]
+- ["5PayMe22HttpConnectionProtocolP", ""]
+- !private ["5PayMe22HttpConnectionProtocolP", "debugPrint"]
+- ["5PayMe22HttpConnectionProtocolP", "delete"]
+- ["5PayMe22HttpConnectionProtocolP", "get"]
+- ["5PayMe22HttpConnectionProtocolP", "post"]
+- ["5PayMe22HttpConnectionProtocolP", "put"]
+- !private ["5PayMe22HttpConnectionProtocolP", "request"]
+- !private ["So8NSObjectC", "Alamofire"]
+- ["So8NSObjectC", "AnyObject"]
+- ["So8NSObjectC", "HTTPMethod"]
+- ["So8NSObjectC", "ServerTrustPolicy"]
+- ["So8NSObjectC", "SessionManager"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "afManager"]
+- !private ["So8NSObjectC", "debugPrint"]
+- ["So8NSObjectC", "delete"]
+- ["So8NSObjectC", "get"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "post"]
+- ["So8NSObjectC", "put"]
+- ["So8NSObjectC", "request"]
+- ["So8NSObjectC", "serverTrustPolicies"]
+- ["So8NSObjectC", "serverTrustPolicy"]
+- !private ["So16NSObjectProtocolP", "Alamofire"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "debugPrint"]
+- ["So16NSObjectProtocolP", "delete"]
+- ["So16NSObjectProtocolP", "get"]
+- !private ["So16NSObjectProtocolP", "init"]
+- ["So16NSObjectProtocolP", "post"]
+- ["So16NSObjectProtocolP", "put"]
+- !private ["So16NSObjectProtocolP", "request"]
+- !private ["s16RawRepresentableP", "delete"]
+- !private ["s16RawRepresentableP", "get"]
+- !private ["s16RawRepresentableP", "post"]
+- !private ["s16RawRepresentableP", "put"]
+- !private ["9Alamofire7RequestC", "responseJSON"]
+- !private ["9Alamofire7RequestC", "validate"]
+- !private ["9Alamofire8ResponseP", "request"]
+- !private ["9Alamofire8ResponseP", "result"]
+- !private ["9Alamofire6ResultO", "failure"]
+- !private ["9Alamofire6ResultO", "success"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Alamofire"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "debugPrint"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "delete"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "get"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "post"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "put"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "request"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- !private "9Alamofire11DataRequestC"
+- !private "9Alamofire12DataResponseV"
+- "s9EquatableP"
+- !private "9Alamofire10HTTPMethodO"
+- "s8HashableP"
+- "5PayMe14HttpConnectionC"
+- "5PayMe22HttpConnectionProtocolP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "s16RawRepresentableP"
+- !private "9Alamofire7RequestC"
+- !private "9Alamofire8ResponseP"
+- !private "9Alamofire6ResultO"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/Gloss/Gloss.framework/Modules/Gloss.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/SwiftToast/SwiftToast.framework/Modules/SwiftToast.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Modules/NVActivityIndicatorView.swiftmodule/x86_64.swiftmodule"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/SCLAlertView/SCLAlertView.framework/Modules/SCLAlertView.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/Gloss/Gloss.framework/Headers/Gloss-umbrella.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/SwiftToast/SwiftToast.framework/Headers/SwiftToast-umbrella.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Headers/NVActivityIndicatorView-umbrella.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/SCLAlertView/SCLAlertView.framework/Headers/SCLAlertView-umbrella.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/Gloss/Gloss.framework/Headers/Gloss-Swift.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/SwiftToast/SwiftToast.framework/Headers/SwiftToast-Swift.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Headers/NVActivityIndicatorView-Swift.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/SCLAlertView/SCLAlertView.framework/Headers/SCLAlertView-Swift.h"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/Gloss/Gloss.framework/Modules/module.modulemap"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/SwiftToast/SwiftToast.framework/Modules/module.modulemap"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/NVActivityIndicatorView/NVActivityIndicatorView.framework/Modules/module.modulemap"
+- "/Users/eduardo.herrera/Desktop/Edu/Projects/iOS/PayMe/PayMe/DerivedData/PayMe/Build/Products/Debug-iphonesimulator/SCLAlertView/SCLAlertView.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "b22c9795b4dd72466e07ede1e2fe1462"

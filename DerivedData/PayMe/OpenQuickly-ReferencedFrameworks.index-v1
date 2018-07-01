@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>SCLAlertView</string>
+	<string>DropDown</string>
+	<string>QuartzCore</string>
+	<string>Dispatch</string>
+	<string>Alamofire</string>
+	<string>SwiftToast</string>
+	<string>CoreServices</string>
+	<string>XCTest</string>
+	<string>NVActivityIndicatorView</string>
+	<string>MobileCoreServices</string>
+	<string>Foundation</string>
+	<string>Gloss</string>
+	<string>UIKit</string>
+	<string>PayMe</string>
+	<string>SystemConfiguration</string>
+</array>
+</plist>
